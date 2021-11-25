@@ -42,7 +42,7 @@ Reactions are very fast actions that are used to counter an action. It is possib
 # Basic actions:
 The following is a list of basic actions available to all characters.
 
-## Melee Attack: `priamary`
+## Melee Attack: `primary`
 Your character makes an attack with their primary weapon. TODO
 
 ## Ranged Attack: `primary`, `unsafe`
@@ -50,22 +50,26 @@ Your character makes an attack with their ranged weapon. TODO
 
 ## Cast a spell: `primary`, `unsafe`
 Spellcasting characters may use their turn to cast a spell.
-See [Spells](systems\spells.md) for more information.
+See [Spells](spells.md) for more information.
 
 ## Use an item: `primary`, `unsafe`
 A character may use a special item from their inventory. A typical example of this is drinking a potion.
 
+## Grapple `primary`
+A character may try to grapple a foe within natural reach. To grapple a foe, you must have at least one completely free hand. You must roll a strength test against their dexterity. On success, the foe is [grappled](statuses.md#grappled), and may not move. Once a foe is grappled, you may use your movement to move up to half your speed, taking your foe with you.
+
+The grappled foe may use its primary action to make a strength test against you to escape.
+
 ## Off hand attack: `secondary`
 If your character has a weapon in their off hand, and has already attacked with their primary action, they may make a second attack. This follows the rules of a melee attack, but has the following restrictions:
  * Both weapons must be `light`
- * The primary attack will have the damage dice reduced by 1 size.
- * The secondary attack will have the damage dice reduced by 2 sizes.
+ * Both attacks will be at [disadvantage](rolls.md#Disadvantage).
 
 ## Push: `secondary`
 If your character has a free hand or shield, they may make a strength test against the foe to push them back 5 feet.
 
-## Movement: `secondary`, `unsafe`
-Your character moves at a comfortable pace, moving up to their movement. This may be interleaved with your other actions.
+## Move: `secondary`, `unsafe`
+Your character moves at a comfortable pace, moving up to their normal movement. This may be interleaved with your other actions.
 
 ## Manouvering: `secondary`
 Your character makes a careful 5 foot step. This does **not** trigger an attack of opportunity.
@@ -74,7 +78,7 @@ Your character makes a careful 5 foot step. This does **not** trigger an attack 
 Your character draws a weapon.
 
 ## Attack of opportunity: `reaction`
-An attack of opportunity is be triggered by a foe performing an unsafe action while within your reach.
+An attack of opportunity is be triggered by a foe performing an unsafe action while within your weapon reach.
 
 Unsafe actions include:
  * Moving (excluding manouvering)
