@@ -3,3 +3,7 @@
 
 Armor is a `number`
 
+## Fatigue
+
+Fatigue is a `number`
+
