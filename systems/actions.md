@@ -53,7 +53,7 @@ Your character makes an attack with their ranged weapon. TODO
 ## Cast a spell
 `primary`, `unsafe`
 Spellcasting characters may use their turn to cast a spell.
-See [Spells](spells) for more information.
+See [Spells](spells.md) for more information.
 
 ## Use an item
 `primary`, `unsafe`
@@ -61,13 +61,13 @@ A character may use a special item from their inventory. A typical example of th
 
 ## Grapple
 `primary`
-A character may try to grapple a foe within natural reach. To grapple a foe, you must have at least one completely free hand. You must roll a strength test against their dexterity. On success, the foe is [grappled](statuses#grappled), and may not move. Once a foe is grappled, you may use your movement to move up to half your speed, taking your foe with you.
+A character may try to grapple a foe within natural reach. To grapple a foe, you must have at least one completely free hand. You must roll a strength test against their dexterity. On success, the foe is [grappled](statuses.md#grappled), and may not move. Once a foe is grappled, you may use your movement to move up to half your speed, taking your foe with you.
 
 The grappled foe may use its primary action to make a strength test against you to escape.
 
 ## Restrain
 `primary`
-A character may try to restrain a foe within natural reach that is already [grappled](statuses#grappled). To restrain a foe, you must have two completely free hands. You must roll a strength test against the foe. On success, the foe is [restrained](statuses#restrained), and may not use any actions that require hands.
+A character may try to restrain a foe within natural reach that is already [grappled](statuses.md#grappled). To restrain a foe, you must have two completely free hands. You must roll a strength test against the foe. On success, the foe is [restrained](statuses.md#restrained), and may not use any actions that require hands.
 
 The restrained foe may use its primary action to make a strength test against you to escape.
 
@@ -75,7 +75,7 @@ The restrained foe may use its primary action to make a strength test against yo
 `secondary`
 If your character has a weapon in their off hand, and has already attacked with their primary action, they may make a second attack. This follows the rules of a melee attack, but has the following restrictions:
  * Both weapons must be `light`
- * Both attacks will be at [disadvantage](rolls#Disadvantage).
+ * Both attacks will be at [disadvantage](rolls.md#Disadvantage).
 
 ## Push
 `secondary`

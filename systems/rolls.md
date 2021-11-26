@@ -12,11 +12,10 @@ Disadvantage is a `-1d4` that is added to your roll. See [advantage](#Advantage)
 
 Tests are a roll that your character makes against a foe to perform some kind of action. This is done by comparing one of your [attributes](stats.md#Attributes) against an atribute of your foes.
 
-Your score is formed by rolling `2d6` plus your characters atribute score. Your foes score is the average value of their attribute, or `7` plus their attribute score. If your score equals or exceeds your foes score, you succeed the test.
+Your score is formed by rolling `2d6` plus your characters atribute score. Your foes score is '7' plus their attribute score (the average value of their attribute). If your score equals or exceeds your foes score, you succeed the test.
 
 If the foes attribute is unspecified, ie, "A strength test", then the tested attributes are the same, ie, strength vs strength.
 
 ### Example: "Strength test against Dexterity"
 
 Your character has a strength of `+2`, so they roll `2d6 + 2` and get a score of `8`. The foes dexterity is `+1`, so their score is `7 + 1`. Because these scores are equal, you succeed the test.
-
