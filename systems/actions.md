@@ -60,6 +60,11 @@ A character may try to grapple a foe within natural reach. To grapple a foe, you
 
 The grappled foe may use its primary action to make a strength test against you to escape.
 
+## Restrain `primary`
+A character may try to restrain a foe within natural reach that is already [grappled](statuses.md#grappled). To restrain a foe, you must have two completely free hands. You must roll a strength test against the foe. On success, the foe is [restrained](statuses.md#restrained), and may not use any actions that require hands.
+
+The restrained foe may use its primary action to make a strength test against you to escape.
+
 ## Off hand attack: `secondary`
 If your character has a weapon in their off hand, and has already attacked with their primary action, they may make a second attack. This follows the rules of a melee attack, but has the following restrictions:
  * Both weapons must be `light`
