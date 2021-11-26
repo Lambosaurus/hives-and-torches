@@ -24,4 +24,4 @@ This is intended to make the outcomes of combat more serious, and encourage more
 
 ## Core rules
 
- - [Actions](systems/Actions)
+ - [Actions](systems/actions.md)
