@@ -9,6 +9,9 @@ In a characters turn they may use the following:
 
 You may downgrade a primary action to a secondary action, and a secondary action to a reaction.
 
+## Unsafe actions
+Some actions are unsafe, and leave you vulnerable to an attack from an elegible foe. These actions may provoke an [Attack of opportunity](#Attack-of-opportunity).
+
 # Primary action
 The primary action represents the action that is the characters focus for this turn. This action usually takes:
  * The characters full attention
@@ -44,11 +47,11 @@ The following is a list of basic actions available to all characters.
 
 ## Melee Attack
 `primary`
-Your character makes an attack with their primary weapon. TODO
+Your character makes an attack with their primary weapon. See [melee attack](rolls.md#Melee-Attack) for more information.
 
 ## Ranged Attack
 `primary`, `unsafe`
-Your character makes an attack with their ranged weapon. TODO
+Your character makes an attack with their ranged weapon. See [ranged attack](rolls.md#Ranged-Attack) for more information.
 
 ## Cast a spell
 `primary`, `unsafe`
@@ -93,7 +96,7 @@ Your character moves at a comfortable pace, moving up to their normal movement. 
 `secondary` Your character draws a weapon.
 
 ## Attack of opportunity
-`reaction` An attack of opportunity is be triggered by a foe performing an unsafe action while within your weapon reach.
+`reaction` An attack of opportunity is be triggered by a foe performing an `unsafe` action while within your weapon reach.
 
 Unsafe actions include:
  * Moving (excluding manouvering)

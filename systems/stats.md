@@ -1,9 +1,8 @@
 
-## Armor
+## Defence
 
-Armor is a `number`
+Defence is a `number`
 
 ## Fatigue
 
 Fatigue is a `number`
-
