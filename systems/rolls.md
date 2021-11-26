@@ -10,7 +10,7 @@ Disadvantage is a `-1d4` that is added to your roll. See [advantage](#Advantage)
 
 ## Tests
 
-Tests are a roll that your character makes against a foe to perform some kind of action. This is done by comparing one of your [attributes](stats#Attributes) against an atribute of your foes.
+Tests are a roll that your character makes against a foe to perform some kind of action. This is done by comparing one of your [attributes](stats.md#Attributes) against an atribute of your foes.
 
 Your score is formed by rolling `2d6` plus your characters atribute score. Your foes score is the average value of their attribute, or `7` plus their attribute score. If your score equals or exceeds your foes score, you succeed the test.
 
