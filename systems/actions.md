@@ -96,7 +96,7 @@ Your character moves at a comfortable pace, moving up to their normal movement. 
 `secondary` Your character draws a weapon.
 
 ## Attack of opportunity
-`reaction` An attack of opportunity is be triggered by a foe performing an `unsafe` action while within your weapon reach.
+`reaction` An attack of opportunity is triggered by a foe performing an `unsafe` action while within your weapon reach.
 
 Unsafe actions include:
  * Moving (excluding manouvering)

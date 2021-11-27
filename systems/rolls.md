@@ -4,7 +4,7 @@ Advantage is a an additional `+1d4` that is added to your roll. These are given 
 
 Advantage and disadvantage cancel out before rolling. Ie, if you have 1x advantage and 3x disadvantage, you would add `-2d4` to your roll.
 
-Advantage and disadvantage can be applied to **any** roll, at the DM's discretion.
+Advantage and disadvantage can be applied to **any** roll at the DM's discretion.
 
 ## Disadvantage
 
@@ -39,7 +39,7 @@ A character with a short bow (`d6`) and +1 agility makes a ranged attack against
 
 ## Melee attack
 
-A melee attack is an attack with a [melee weapon](weapons.md#Melee-weapons). The target foe must within your weapon reach. Weapon reach is `5ft` unless otherwise stated. The attack score of a melee attack is `2x` your weapons dice plus your [strength](attributes.md#Strength).
+A melee attack is an attack with a [melee weapon](weapons.md#Melee-weapons). The target foe must be within your weapon reach. Weapon reach is `5 feet` unless otherwise stated. The attack score of a melee attack is `2x` your weapons dice plus your [strength](attributes.md#Strength).
 
 ## Ranged attack
 
@@ -86,9 +86,9 @@ Because his total damage score of `6`, and his foes [defence](stats.md#Defence) 
 
 A character performs an attack with a dagger `d4` and a agility of `+3`. Because he is [hidden](statuses.md#Hidden) and the foe is [flanked](statuses.md#Flanked) he as `2x` [advantage](#Advantage).
 
-This means he rolls `4d4 + 3` for his attack score. His die are `1,1,1,3`. This is a double critical, and he may have two critical effects. He chooses to both [pierce defence](#Pierce-defence) and [twist the knife](feats.md#Twist-the-knife) for a bonus `1d8`.
+This means he rolls `4d4 + 3` for his attack score. His die are `1,1,1,3`. This is a double critical, and he may have two critical effects. He chooses to both [pierce defence](#Pierce-defence) and use his [twist the knife](feats.md#Twist-the-knife) feat to inflict and additional `4` damage.
 
-Rolling `6` for twist the knife, `15` damage is dealt in total.
+`13` damage is dealt in total.
 
 ### Example 4
 
@@ -96,4 +96,4 @@ A character performs an attack with a shortsword `d6` and a strength of `+1`. Be
 
 He rolls `6,6,-2`, for a total of `11` damage. Due to his disadvantage, this is not a [critical failure](#Critical-failure). Because there are no features active that are triggered from a critical falure, this is ignored.
 
-Once the foes [defence](stats.md#Defence) of `3` is accounted for `9` damage is dealt in total.
+Once the foes [defence](stats.md#Defence) of `3` is accounted for `8` damage is dealt in total.

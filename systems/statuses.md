@@ -25,6 +25,10 @@ A prone character has its move actions modified. They may instead:
 Any melee attacks against a prone character are made with an [advantage](rolls.md#Advantage).
 Any ranged attacks against a prone character are made with a [disadvantage](rolls.md#Disadvantage).
 
+## Bleeding
+
+This is a stub
+
 # Conditional status effects
 
 ## In cover
