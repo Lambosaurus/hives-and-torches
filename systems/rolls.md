@@ -39,11 +39,11 @@ A character with a short bow (`d6`) and +1 agility makes a ranged attack against
 
 ## Melee attack
 
-A melee attack is an attack with a [melee weapon](weapons.md#Melee-weapons). The target foe must within your weapon reach. Weapon reach is `5ft` unless otherwise stated. The attack score of a melee attack is `2x` your weapons dice plus your [strength](attributes.md#Strength).
+A melee attack is an [attack](#Attack) with a [melee weapon](weapons.md#Melee-weapons). The target foe must within your [weapon reach](weapons.md#Weapon-reach). Weapon reach is `5ft` unless otherwise stated. The attack score of a melee attack is `2x` your weapons dice plus your [strength](attributes.md#Strength).
 
 ## Ranged attack
 
-A ranged attack is an attack made with a [ranged weapon](weapons.md#Ranged-weapons). The attack score of a ranged attack is `2x` your weapons dice plus your [agility](attributes.md#Agility). A ranged attack is [unsafe](actions.md#Unsafe).
+A ranged attack is an [attack](#Attack) made with a [ranged weapon](weapons.md#Ranged-weapons). The target foe must be within your [weapon range](weapons.md#Weapon-range). The attack score of a ranged attack is `2x` your weapons dice plus your [agility](attributes.md#Agility). A ranged attack is [unsafe](actions.md#Unsafe).
 
 ## Unarmed attack
 

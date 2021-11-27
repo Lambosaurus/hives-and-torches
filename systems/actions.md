@@ -96,11 +96,11 @@ Your character moves at a comfortable pace, moving up to their normal movement. 
 `secondary` Your character draws a weapon.
 
 ## Attack of opportunity
-`reaction` An attack of opportunity is be triggered by a foe performing an `unsafe` action while within your weapon reach.
+`reaction` An attack of opportunity is be triggered by a foe performing an `unsafe` action while within your [weapon reach](weapons.md#Weapon-reach).
 
 Unsafe actions include:
- * Moving (excluding manouvering)
- * Casting a spell with a primary action
+ * Taking the [move](#Move) action
+ * Casting a [spell](#spells.md) with a primary action
  * Using an item (and the DM's discretion)
 
-The basic attack of opportunity enabled you to perform a melee attack against the foe.
+The basic attack of opportunity enables you to perform a [melee attack](rolls.ms#Melee-attack) against the foe. You must have a [melee weapon](weapons.md#Melee-weapon) in your hand to be eligible for this action.

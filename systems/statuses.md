@@ -69,11 +69,52 @@ When a character is hidden from a foe:
  - [Attacking](rolls.md#Attack) the foe is made with [advantage](rolls.md#Advantage).
  - [Attacks](rolls.md#Attack) aginst the character are made with `2x` [disadvantage](rolls.md#Disadvantage).
 
-## Flanking
-This is a stub
-
-## Shooting into melee
-A character is considered shooting into melee when making a [ranged attack](rolls.md#Ranged-attack) against a foe and there are friendly characters within `5 feet` of the foe.
+ ## Shooting into melee
+A character is considered shooting into melee when making a [ranged attack](rolls.md#Ranged-attack) against a foe and there are allies within `5 feet` of the foe.
 
  - You take a [disadvantage](rolls.md#Disadvantage) **per friendly character** within `5 feet` of your target.
  - On a [critical failure](#Critical-failure), your attack instead hits one of the friendly characters. The hit character is selected at the DM's discretion. The [damage](stats.md#Damage) dealt is your rolled damage **excluding your disadvantage dice**.
+
+## Flanking
+A character is considered flanking if there is another friendly character who meets the following criteria:
+ 1) Is capable of making a [melee attack](rolls.md#Melee-attack) against the foe. This includes:
+    - Has a [melee weapon](weapons.md#melee-weapons) in their hands
+    - Is within [weapon reach](weapons.md#Weapon-reach)
+    - Is willing to make an attack
+ 2) Is threatening a different face of the enemy as the first character.
+    - Corners are only considered a different face if they are **not** adjacent to the threatened face.
+
+When a character is flanking a foe:
+ - All [melee attacks](rolls.md#Melee-attack) against the foe are with and [advantage](rolls.md#Advantage)
+
+### Example 1:
+```
+Case 1            Case 2           Case 3
+┌───┬───┬───┐    ┌───┬───┬───┐    ┌───┬───┬───┐
+│   │   │   │    │   │   │   │    │   │   │   │
+├───┼───┼───┤    ├───┼───┼───┤    ├───┼───┼───┤
+│   │ X │   │    │   │ X │   │    │ C │ X │   │
+├───┼───┼───┤    ├───┼───┼───┤    ├───┼───┼───┤
+│   │ A │ B │    │ A │   │ B │    │   │ A │ B │
+└───┴───┴───┘    └───┴───┴───┘    └───┴───┴───┘
+```
+In *Case 1*, characters A and B are **not** flanking the foe X, because the corner threatened by B is adjacent to the face threatend by A.
+
+In *Case 2* characters A and B **are** flanking, because their corners are not adjacent.
+
+In *Case 3* characters A, B and C are **all** flanking. A and B are both not threatening the same face as C.
+
+### Example 2:
+```
+┌───┬───┬───┐
+│   │ X │ X │
+├───┼───┼───┤
+│   │ X │ X │ 
+├───┼───┼───┤ 
+│ A │   │ B │
+└───┴───┴───┘
+```
+The large foe, X, occupies 4 squares. A and B are **not** flanking, because the corner threatened by A is adjacent to the edge threatened by B.
+
+### Cases with high weapon reach
+It can be difficult to determine the threatened face or corner when a character with `10 feet` or higher reach are attacking a foe. For now, this shall be left to the discretion of the DM.
