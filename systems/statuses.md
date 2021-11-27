@@ -44,6 +44,10 @@ A blinded foe has lost the ability to see their foes.
 
 Note that some foes may have access to other forms of locating targets. This will be mentioned in their stat sheet, and renders them functionally immune to being blinded.
 
+## Bleeding
+
+This is a stub
+
 # Conditional status effects
 
 These are conditional status effects that are considered between characters on a turn by turn basis. These should be automatically applied if you or your foe meets the conditions.

@@ -9,7 +9,7 @@ In a characters turn they may use the following:
 
 You may downgrade a primary action to a secondary action, and a secondary action to a reaction.
 
-## Unsafe actions
+## Unsafe action
 Some actions are unsafe, and leave you vulnerable to an attack from an elegible foe. These actions may provoke an [Attack of opportunity](#Attack-of-opportunity).
 
 # Primary action
@@ -96,7 +96,7 @@ Your character moves at a comfortable pace, moving up to their normal movement. 
 `secondary` Your character draws a weapon.
 
 ## Attack of opportunity
-`reaction` An attack of opportunity is be triggered by a foe performing an `unsafe` action while within your [weapon reach](weapons.md#Weapon-reach).
+`reaction` An attack of opportunity is triggered by a foe performing an [unsafe action](#Unsafe-action) while within your weapon reach.
 
 Unsafe actions include:
  * Taking the [move](#Move) action
