@@ -29,13 +29,13 @@ A prone character is lying on the ground. Their ability to move is reduced, and 
     - [Manouver](actions.md#Manouvering) action to stand up
 
  - Any [melee attacks](rolls.md#Melee-attack) against a prone character are made with an [advantage](rolls.md#Advantage).
-  - Any [ranged attacks](rolls.md#Ranged-attack) against a prone character are made with a [disadvantage](rolls.md#Disadvantage).
+ - Any [ranged attacks](rolls.md#Ranged-attack) against a prone character are made with a [disadvantage](rolls.md#Disadvantage).
 
 ## Marked
 A marked character has been specially marked by some effect that makes them easy.
 
  - A marked character may not become [hidden](#Hidden)
-- All [attacks](rolls.md#ttack) against a marked character are made with an [advantage](rolls.md#Advantage).
+ - All [attacks](rolls.md#ttack) against a marked character are made with an [advantage](rolls.md#Advantage).
 
 ## Blinded
 A blinded foe has lost the ability to see their foes.
@@ -61,9 +61,9 @@ If a character is over half obscured by solid terrain, such as walls or trees, t
 
 ## Hidden
 A character is considered hidden if they are unable to be detected by a foe. This may be due to the following reasons:
-- The foe is [blinded](#Blinded)
-- The foe is unaware that the characters may be nearby
-- The character is invisible, obscured in smoke, or otherwise cannot be observed by the foes current senses.
+ - The foe is [blinded](#Blinded)
+ - The foe is unaware that the characters may be nearby
+ - The character is invisible, obscured in smoke, or otherwise cannot be observed by the foes current senses.
 
 A foe is not able to properly defend against a hidden character, and cannot normally [attack](rolls.md#Attack) them.
 

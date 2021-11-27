@@ -84,7 +84,7 @@ Because his total damage score of `6`, and his foes [defence](stats.md#Defence) 
 
 ### Example 3:
 
-A character performs an attack with a dagger `d4` and a agility of `+3`. Because he is [hidden](statuses.md#Hidden) and [flanking](statuses.md#Flanking) he as `2x` [advantage](#Advantage).
+A character performs an attack with a dagger `d4` and a agility of `+3`. Because he is [hidden](statuses.md#Hidden) and [flanking](statuses.md#Flanking) he has `2x` [advantage](#Advantage).
 
 This means he rolls `4d4 + 3` for his attack score. His die are `1,1,1,3`. This is a double critical, and he may have two critical effects. He chooses to both [pierce defence](#Pierce-defence) and [twist the knife](feats.md#Twist-the-knife) to inflict an additional `4` damage.
 
