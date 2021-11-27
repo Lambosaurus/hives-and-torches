@@ -68,7 +68,7 @@ This is a [critical](#Criticals) effect that all characters have access to by de
 
 ### Example 1:
 
-A character performs an attack with a greatsword (`d10`) and `+4` strength. Because the foe is both [flanked](statuses.md#Flanked) and [marked](statuses.md#Marked), he also has `2x` [advantage](#Advantage).
+A character performs an attack with a greatsword (`d10`) and `+4` strength. Because he is [flanking](statuses.md#Flanking) and the foe is [marked](statuses.md#Marked), he also has `2x` [advantage](#Advantage).
 
 This means he rolls `2d10 + 4 + 2d4` for his attack score. His die are `8,3,3,2`. Because there are two `3`'s, he has rolled a critical. The character chooses to use this critical to [pierce defence](#Pierce-defence), ignoring the foes [defence](stats.md#Defence).
 
@@ -84,7 +84,7 @@ Because his total damage score of `6`, and his foes [defence](stats.md#Defence) 
 
 ### Example 3:
 
-A character performs an attack with a dagger `d4` and a agility of `+3`. Because he is [hidden](statuses.md#Hidden) and the foe is [flanked](statuses.md#Flanked) he as `2x` [advantage](#Advantage).
+A character performs an attack with a dagger `d4` and a agility of `+3`. Because he is [hidden](statuses.md#Hidden) and [flanking](statuses.md#Flanking) he as `2x` [advantage](#Advantage).
 
 This means he rolls `4d4 + 3` for his attack score. His die are `1,1,1,3`. This is a double critical, and he may have two critical effects. He chooses to both [pierce defence](#Pierce-defence) and [twist the knife](feats.md#Twist-the-knife) for a bonus `1d8`.
 
