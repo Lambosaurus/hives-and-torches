@@ -18,9 +18,9 @@ Your score is formed by rolling `2d6` plus your characters atribute score. Your 
 
 If the foes attribute is unspecified, ie, "A strength test", then the tested attributes are the same, ie, strength vs strength.
 
-### Example: "Strength test against Dexterity"
+### Example: "Strength test against Agility"
 
-Your character has a strength of `+2`, so they roll `2d6 + 2` and get a score of `8`. The foes dexterity is `+1`, so their score is `7 + 1`. Because these scores are equal, you succeed the test.
+Your character has a strength of `+2`, so they roll `2d6 + 2` and get a score of `8`. The foes agility is `+1`, so their score is `7 + 1`. Because these scores are equal, you succeed the test.
 
 
 # Attacks
@@ -54,14 +54,46 @@ It is possible to make an attack without a weapon. This is equivalent to a [mele
 
 Any dice with a duplicate number are considered a critical. These include any [advantage](#Advantage) dice. Notice how a few advantage die significantly increase your odds of achieving critical effects, and many advantage die may even guarantee a critical. Stacking advantage to improve the odds of critical is a core mechanic to this ruleset.
 
-If you have a [disadvantage](#Disadvantage) (That is, more disadvantages than advantages) you are **not** elegable for criticals. You may instead be elegible for [critical failures](#Critical-failures). Critical failures occurr on duplicate dice, like regular criticals. Critical failures are ignored by default.
+On a critical, the character may select an applicable critical hit effect. All characters have [pierce defence](#Pierce-defence) as a critical effect option by default. Multiple critical effects may be selected for each pair of duplicates. Three of a kind count as two criticals, and so on.
+
+If you have a [disadvantage](#Disadvantage) (That is, more disadvantages than advantages) you are **not elegable for criticals**. You may instead be elegible for [critical failures](#Critical-failure).
+
+## Critical failure
+
+Critical failures occurr when you roll a critical, but have [disadvantage](#Disadvantage). This event is usually ignored, but may be mentioned in specific rules or features.
+
+## Pierce defence
+
+This is a [critical](#Criticals) effect that all characters have access to by default. This allows you to ignore the foes [defence](stats.md#Defence) when calculating damage.
 
 ### Example 1:
 
-A character performs a strength test. He rolls `2d6 + 1`.
+A character performs an attack with a greatsword (`d10`) and `+4` strength. Because the foe is both [flanked](statuses.md#Flanked) and [marked](statuses.md#Marked), he also has `2x` [advantage](#Advantage).
 
-## Critical hit
+This means he rolls `2d10 + 4 + 2d4` for his attack score. His die are `8,3,3,2`. Because there are two `3`'s, he has rolled a critical. The character chooses to use this critical to [pierce defence](#Pierce-defence), ignoring the foes [defence](stats.md#Defence).
 
-A critical hit is a [critital](Critical) that is rolled during an [attack](#Attack) action. This allows the character to select an applicable critical hit effect. All characters have the default option to use this effect to ignore [defence](stats.md#Defence) when calculating damage.
+The target then takes the entire `20` damage.
 
-## Critical failures
+### Example 2:
+
+A character performs an attack with a hammer `d8`, and a strength of `+2`.
+
+This means he rolls `2d8 + 2` for his attack score. His die are `2,2`. Because there are two `6`'s, he has rolled a critical.
+
+Because his total damage score of `6`, and his foes [defence](stats.md#Defence) is `7`, this is not a hit. Becase his [stunning blow](feats.md#Stunning-blow) feat requires a hit, he may **not** use it. Instead, he will [pierce defence](#Pierce-defence), and deal `6` damage.
+
+### Example 3:
+
+A character performs an attack with a dagger `d4` and a agility of `+3`. Because he is [hidden](statuses.md#Hidden) and the foe is [flanked](statuses.md#Flanked) he as `2x` [advantage](#Advantage).
+
+This means he rolls `4d4 + 3` for his attack score. His die are `1,1,1,3`. This is a double critical, and he may have two critical effects. He chooses to both [pierce defence](#Pierce-defence) and [twist the knife](feats.md#Twist-the-knife) for a bonus `1d8`.
+
+Rolling `6` for twist the knife, `15` damage is dealt in total.
+
+### Example 4
+
+A character performs an attack with a shortsword `d6` and a strength of `+1`. Because his foe is [in cover](statuses.md#In-cover), he is rolling with [disadvantage](#Disadvantage).
+
+He rolls `6,6,-2`, for a total of `11` damage. Due to his disadvantage, this is not a [critical failure](#Critical-failure). Because there are no features active that are triggered from a critical falure, this is ignored.
+
+Once the foes [defence](stats.md#Defence) of `3` is accounted for `9` damage is dealt in total.
