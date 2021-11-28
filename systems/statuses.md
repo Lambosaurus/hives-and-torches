@@ -32,10 +32,10 @@ A prone character is lying on the ground. Their ability to move is reduced, and 
  - Any [ranged attacks](rolls.md#Ranged-attack) against a prone character are made with a [disadvantage](rolls.md#Disadvantage).
 
 ## Marked
-A marked character has been specially marked by some effect that makes them easy.
+A marked character has been specially marked by some effect that makes them makes them easier to spot and hit.
 
- - A marked character may not become [hidden](#Hidden)
- - All [attacks](rolls.md#ttack) against a marked character are made with an [advantage](rolls.md#Advantage).
+ - A marked character may not become [hidden](#Hidden).
+ - All [attacks](rolls.md#Attack) against a marked character are made with an [advantage](rolls.md#Advantage).
 
 ## Blinded
 A blinded foe has lost the ability to see their foes.
