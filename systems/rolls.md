@@ -39,11 +39,11 @@ A character with a short bow (`d6`) and +1 agility makes a ranged attack against
 
 ## Melee attack
 
-A melee attack is an attack with a [melee weapon](weapons.md#Melee-weapons). The target foe must be within your weapon reach. Weapon reach is `5 feet` unless otherwise stated. The attack score of a melee attack is `2x` your weapons dice plus your [strength](attributes.md#Strength).
+A melee attack is an [attack](#Attack) with a [melee weapon](weapons.md#Melee-weapons). The target foe must within your [weapon reach](weapons.md#Weapon-reach). Weapon reach is `5ft` unless otherwise stated. The attack score of a melee attack is `2x` your weapons dice plus your [strength](attributes.md#Strength).
 
 ## Ranged attack
 
-A ranged attack is an attack made with a [ranged weapon](weapons.md#Ranged-weapons). The attack score of a ranged attack is `2x` your weapons dice plus your [agility](attributes.md#Agility). A ranged attack is [unsafe](actions.md#Unsafe).
+A ranged attack is an [attack](#Attack) made with a [ranged weapon](weapons.md#Ranged-weapons). The target foe must be within your [weapon range](weapons.md#Weapon-range). The attack score of a ranged attack is `2x` your weapons dice plus your [agility](attributes.md#Agility). A ranged attack is [unsafe](actions.md#Unsafe).
 
 ## Unarmed attack
 
@@ -68,7 +68,7 @@ This is a [critical](#Criticals) effect that all characters have access to by de
 
 ### Example 1:
 
-A character performs an attack with a greatsword (`d10`) and `+4` strength. Because the foe is both [flanked](statuses.md#Flanked) and [marked](statuses.md#Marked), he also has `2x` [advantage](#Advantage).
+A character performs an attack with a greatsword (`d10`) and `+4` strength. Because he is [flanking](statuses.md#Flanking) and the foe is [marked](statuses.md#Marked), he also has `2x` [advantage](#Advantage).
 
 This means he rolls `2d10 + 4 + 2d4` for his attack score. His die are `8,3,3,2`. Because there are two `3`'s, he has rolled a critical. The character chooses to use this critical to [pierce defence](#Pierce-defence), ignoring the foes [defence](stats.md#Defence).
 
@@ -84,9 +84,9 @@ Because his total damage score of `6`, and his foes [defence](stats.md#Defence) 
 
 ### Example 3:
 
-A character performs an attack with a dagger `d4` and a agility of `+3`. Because he is [hidden](statuses.md#Hidden) and the foe is [flanked](statuses.md#Flanked) he as `2x` [advantage](#Advantage).
+A character performs an attack with a dagger `d4` and a agility of `+3`. Because he is [hidden](statuses.md#Hidden) and [flanking](statuses.md#Flanking) he has `2x` [advantage](#Advantage).
 
-This means he rolls `4d4 + 3` for his attack score. His die are `1,1,1,3`. This is a double critical, and he may have two critical effects. He chooses to both [pierce defence](#Pierce-defence) and use his [twist the knife](feats.md#Twist-the-knife) feat to inflict and additional `4` damage.
+This means he rolls `4d4 + 3` for his attack score. His die are `1,1,1,3`. This is a double critical, and he may have two critical effects. He chooses to both [pierce defence](#Pierce-defence) and [twist the knife](feats.md#Twist-the-knife) to inflict an additional `4` damage.
 
 `13` damage is dealt in total.
 
@@ -94,6 +94,6 @@ This means he rolls `4d4 + 3` for his attack score. His die are `1,1,1,3`. This 
 
 A character performs an attack with a shortsword `d6` and a strength of `+1`. Because his foe is [in cover](statuses.md#In-cover), he is rolling with [disadvantage](#Disadvantage).
 
-He rolls `6,6,-2`, for a total of `11` damage. Due to his disadvantage, this is not a [critical failure](#Critical-failure). Because there are no features active that are triggered from a critical falure, this is ignored.
+He rolls `6,6,-2`, for a total of `11` damage. Due to his disadvantage, this is a [critical failure](#Critical-failure). Because there are no features active that are triggered from a critical failure, this is ignored.
 
 Once the foes [defence](stats.md#Defence) of `3` is accounted for `8` damage is dealt in total.
