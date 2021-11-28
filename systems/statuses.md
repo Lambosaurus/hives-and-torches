@@ -61,9 +61,10 @@ If a character is over half obscured by solid terrain, such as walls or trees, t
 
 ## Hidden
 A character is considered hidden if they are unable to be detected by a foe. This may be due to the following reasons:
- - The foe is [blinded](#Blinded)
- - The foe is unaware that the characters may be nearby
- - The character is invisible, obscured in smoke, or otherwise cannot be observed by the foes current senses.
+ - The foes senses are unable to detect the character.
+ - The foe is unaware that the characters may be nearby.
+
+Some [feats](feats.md#feats) and [spells](spells.md#Spells) will confer hidden to a character, but it is up to the DM's discretion whether the foes other senses can bypass this.
 
 A foe is not able to properly defend against a hidden character, and cannot normally [attack](rolls.md#Attack) them.
 
