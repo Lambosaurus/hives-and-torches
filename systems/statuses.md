@@ -55,9 +55,23 @@ These are conditional status effects that are considered between characters on a
 For example: a foe may be [in cover](#in-cover) when viewed by one character, but not when viewed by another.
 
 ## In cover
-If a character is over half obscured by solid terrain, such as walls or trees, then they are considered in cover.
+If a character is half obscured by solid terrain, they are considered to be in cover.
 
- - [Attacks](rolls.md#Attack) against a foe in cover are made with a [disadvantage](rolls.md#Disadvantage)
+Examples of cover include:
+ - Tree cover.
+ - Behind windows, low walls, or crenellations.
+ - On top of a cliff or rampart.
+
+When a character is in cover:
+ - [Attacks](rolls.md#Attack) against them are made with a [disadvantage](rolls.md#Disadvantage).
+
+## High ground
+If a character is elevated `10 feet` or higher above his foe, it is easier to aim and fire missiles.
+
+When a character has high ground:
+ - [Ranged attacks](rolls.md#Ranged-attack) against the foe are made with with an [advantage](rolls.md#Advantage)
+
+A character with high ground is likely to also be [in cover](#in-cover) from their foe. This is to be determined by the DM.
 
 ## Hidden
 A character is considered hidden if they are unable to be detected by a foe. This may be due to the following reasons:
