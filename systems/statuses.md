@@ -31,7 +31,7 @@ This is a stub
 ## Crippled
 This foe has been hamstrung, or is pinned by arrows or magic. Movement is extremely difficult.
 
-A crippled character:
+When a character is crippled:
  - Their movement using the [Move](actions.md#Move) action is halved
  - May not take the [Manouver](actions.md#Manouvering) action
 
