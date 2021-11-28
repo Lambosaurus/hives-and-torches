@@ -22,7 +22,7 @@ Restrained is an advanced form of [grappled](#grappled). You may not be both gra
 The restrained character may use its action to attempt to escape being restrained using a strength test against the restrainer.
 
 ## Prone
-A prone character is lying on the ground. Their ability to move is reduced, and it is difficult to use weapons. Your character may willingly become prone by taking half of their movement during a move action to do so.
+A prone character is lying on the ground. Their ability to move is reduced, and it is difficult to use weapons. Your character may willingly become prone by using their [manouver](actions.md#Manouvering) action to lie down.
 
  - A prone character has its move actions modified. They may instead:
     - [Move](actions.md#Move) action to move up to half their speed
