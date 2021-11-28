@@ -26,8 +26,27 @@ Any melee attacks against a prone character are made with an [advantage](rolls.m
 Any ranged attacks against a prone character are made with a [disadvantage](rolls.md#Disadvantage).
 
 ## Bleeding
-
 This is a stub
+
+## Crippled
+This foe has been hamstrung, or is pinned by arrows or magic. Movement is extremely difficult.
+
+A crippled character:
+ - Their movement using the [Move](actions.md#Move) action is halved
+ - May not take the [Manouver](actions.md#Manouvering) action
+
+## Unconscious 
+A character may be unconcious because they are asleep, under the effect of a [spell](spells.md#Spell), or have subcumb to their [wounds](stats.md#Wounds).
+
+When a character is unconscious:
+ - They may take no [actions](actions.md#Actions)
+ - They will fall [prone](#Prone) unless explicitly prevented
+ - Attacks against them are made with `2x` [advantage](rolls.md#Advantage). This may **not** stack with the bonuses from [hidden](#Hidden).
+
+## Dead
+This character is dead. This is final.
+ - This character is removed from the turn order.
+ - It is time to roll a new character.
 
 # Conditional status effects
 
