@@ -2,7 +2,7 @@
 
 Advantage is a an additional `+1d4` that is added to your roll. These are given due to advantageous circumstances that improve your odds of succeeding your task. Advantage may stack indefintely, and is the opposite of [disadvantage](#Disadvantage).
 
-Advantage and disadvantage cancel out before rolling. Ie, if you have 1x advantage and 3x disadvantage, you would add `-2d4` to your roll.
+Advantage and disadvantage cancel out before rolling. Ie, if you have `1x` advantage and `3x` disadvantage, you would add `-2d4` to your roll.
 
 Advantage and disadvantage can be applied to **any** roll at the DM's discretion.
 
@@ -14,7 +14,7 @@ Disadvantage is a `-1d4` that is added to your roll. See [advantage](#Advantage)
 
 Tests are a roll that your character makes against a foe to perform some kind of action. This is done by comparing one of your [attributes](stats.md#Attributes) against an atribute of your foes.
 
-Your score is formed by rolling `2d6` plus your characters atribute score. Your foes score is '7' plus their attribute score (the average value of their attribute). If your score equals or exceeds your foes score, you succeed the test. [Advantage](#Advantage) may also be added to these rolls.
+Your score is formed by rolling `2d6` plus your characters atribute score. Your foes score is `7` plus their attribute score (the average value of their attribute). If your score equals or exceeds your foes score, you succeed the test. [Advantage](#Advantage) may also be added to these rolls.
 
 If the foes attribute is unspecified, ie, "A strength test", then the tested attributes are the same, ie, [strength](stats.md#Strength) vs strength.
 
