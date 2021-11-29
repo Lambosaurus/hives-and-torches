@@ -35,7 +35,7 @@ If the attack score is greater than the foes [defence](stats.md#Defence) score, 
 A character with a long sword (`d8`) and +3 [strength](stats.md#Strength) makes a melee attack against foe. He rolls `2d8 + 3` and gets a combat score of `13`. The foe has a defence of `4`, so the damage dealt is `13 - 4 = 9`. This 
 
 ### Example 2:
-A character with a short bow (`d6`) and +1 agility makes a ranged attack against a foe. He rolls `2d6 + 1` and gets a combat score of `3`. The foe has a defence of `5`, so the attack is inneffective and no damage is dealt.
+A character with a short bow (`d6`) and +1 [finesse](stats.md#Finesse) makes a ranged attack against a foe. He rolls `2d6 + 1` and gets a combat score of `3`. The foe has a defence of `5`, so the attack is inneffective and no damage is dealt.
 
 ## Melee attack
 
@@ -43,7 +43,7 @@ A melee attack is an [attack](#Attack) with a [melee weapon](weapons.md#Melee-we
 
 ## Ranged attack
 
-A ranged attack is an [attack](#Attack) made with a [ranged weapon](weapons.md#Ranged-weapons). The target foe must be within your [weapon range](weapons.md#Weapon-range). The attack score of a ranged attack is `2x` your weapons dice plus your [agility](status.md#Agility). A ranged attack is [unsafe](actions.md#Unsafe).
+A ranged attack is an [attack](#Attack) made with a [ranged weapon](weapons.md#Ranged-weapons). The target foe must be within your [weapon range](weapons.md#Weapon-range). The attack score of a ranged attack is `2x` your weapons dice plus your [finesse](stats.md#Finesse). A ranged attack is [unsafe](actions.md#Unsafe).
 
 ## Unarmed attack
 
@@ -84,7 +84,7 @@ Because his total damage score of `6`, and his foes [defence](stats.md#Defence) 
 
 ### Example 3:
 
-A character performs an attack with a dagger `d4` and a agility of `+3`. Because he is [hidden](statuses.md#Hidden) and [flanking](statuses.md#Flanking) he has `2x` [advantage](#Advantage).
+A character performs an attack with a dagger `d4` and a [finesse](stats.md#Finesse) of `+3`. Because he is [hidden](statuses.md#Hidden) and [flanking](statuses.md#Flanking) he has `2x` [advantage](#Advantage).
 
 This means he rolls `4d4 + 3` for his attack score. His die are `1,1,1,3`. This is a double critical, and he may have two critical effects. He chooses to both [pierce defence](#Pierce-defence) and [twist the knife](feats.md#Twist-the-knife) to inflict an additional `4` damage.
 
