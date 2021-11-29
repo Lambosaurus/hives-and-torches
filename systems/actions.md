@@ -32,7 +32,7 @@ The secondary action is something that can be completed either:
 
 Examples of secondary actions include:
  * Movement
- * Manouvering
+ * Manoeuvring
  * Using an off hand weapon
  * Drawing or sheathing a weapon
  * Some fast skills or spells.
@@ -88,7 +88,7 @@ If the character has a free hand or shield, they may make a [strength](stats.md#
 `secondary`, `unsafe`
 The character moves at a comfortable pace, moving up to their [normal movement](stats.md#Speed). This may be interleaved with your other actions.
 
-## Manouvering
+## Manoeuvre
 `secondary`
 The character makes a careful 5 foot step. This does **not** trigger an [attack of opportunity](#Attack-of-opportunity).
 
