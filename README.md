@@ -24,4 +24,10 @@ This is intended to make the outcomes of combat more serious, and encourage more
 
 # Core rules
 
+ - [Stats](systems/stats.md)
  - [Actions](systems/actions.md)
+ - [Rolls](systems/rolls.md)
+ - [Statuses](systems/statuses.md)
+ - [Feats](systems/feats.md)
+ - [Items](systems/items.md)
+ - [Weapons](systems/weapons.md)
