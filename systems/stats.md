@@ -54,7 +54,9 @@ A mortal wound cannot be removed trivially. They DM may select some of these opt
  - Days or weeks of care in town to let your wounds heal
  - Paying for the services of an expert healer
  - Requiring the player to go on a small side quest
- - Making it a permenant wound as a reminder of the players hubris
+ - Making it a permanent wound as a reminder of the players hubris
+
+When a mortal wound is healed, it may not be 'good as new'. Scar tissue or missing digits could still remain. The worst of the trauma has healed, and the character has learned to make do with the body they have.
 
 # Size
 
