@@ -21,47 +21,40 @@ The DM may choose to allow players to reroll `1`'s when rolling to add maximum f
 ## Damage 
 Damage is the number dealt to a character due to an [attack](rolls.md#Attack) or other effect after [defence](#Defence) is considered. 
  
-Damage is dealt to a character in the following order: 
- 1. The damage is subtracted from your [fatigue](#Fatigue). If there is any remaining damage, it overflows to step 2. 
- 2. Damage dealt when there is no fagigue is converted into [wounds](#Wounds). Additional wounds are done per [wound threshold](#Wound-threshold) of damage. 
+Damage is dealt to a character in the following order:
+ 1. The damage is subtracted from your [fatigue](#Fatigue). If there is any remaining damage, it overflows to step 2.
+ 2. Damage dealt at `0` fatigue is dealt as a single [wound](#Wounds).
+
+## Wounds
+
+Characters have a set number of wound slots. For [medium](#Size) players this number is `3`. These wounds can individually be in one of three states.
+ - Free
+ - Wounded
+ - Mortally wounded
+
+When you take a wound, one of your free slots becomes wounded. Wounds are difficult to remove - and require special magics or healing items.
+
+When a character has no free wounds remaining, they will [black out](#Black-out).
+
+If additional wounds are dealt when no free wounds remain, then a wound is instead upgraded to a [mortal wound](#Mortal-wound). When all wound slots are filled with [mortal wounds](#Mortal-wounds), then the character is [dead](statuses.md#Dead).
+
+## Black out
+
+When no wounds are available, a character will become [unconscious](statuses.md#unconscious). Unconsciousness persists until a point of [fatigue](statuses.md#Fatigue) is restored.
+
+A player character may choose press on and stay concious instead of blacking out. If they do so, they will not be able to black out until they take another would.
+
+## Mortal wound
  
-### Wound threshold 
-This is the amount of damage required to take multiple wounds. This defaults to `6` for all characters and foes. 
- 
-## Wounds 
- 
-Characters have a set number of wound slots. For [medium](#Size) creatures this number is `3`. These wounds can individually be in one of three states. 
- - Free 
- - Wounded 
- - Mortally wounded 
- 
-When you take a wound, one of your free slots becomes wounded. Wounds are difficult to remove - and require special magics or healing items. 
- 
-When a player character recieved a wound and has no free wounds remaining, they are presented the following options: 
- 1. [Fade to black](#Fade-to-black). 
- 2. Stay in the fight. 
- 
-Enemy monsters are not presented with this option. When they run out of wounds, they are [dead](#statuses.md#Dead). 
- 
-If additional wounds are dealt when no free wounds remain, then a wound is instead upgraded to a [mortal wound](#Mortal-wound). When all wound slots are filled with [mortal wounds](#Mortal-wounds), then the character is [dead](statuses.md#Dead). 
- 
-## Fade to black 
- 
-When no wounds are available, a character allow themselves to fade to black. They become [unconscious](statuses.md#unconscious). 
- 
-Unconsciousness persists until a point of [fatigue](statuses.md#Fatigue) is restored. 
- 
-## Mortal wound 
- 
-A mortal wound reflects a life threatening wound to the character. This cannot be easily treated, and will have effects on the characters ability to play. 
- 
-When a mortal wound is gained, they recieve an effect from the [wound table](#Wound-table). This may be selected by rolling, or at the DM's discretion. 
- 
-A mortal wound cannot be removed trivially. They DM may select some of these options for removing wounds: 
- - Days or weeks of care in town to let your wounds heal 
- - Paying for the services of an expert healer 
- - Requiring the player to go on a small side quest 
- - Making it a permenant wound as a reminder of the players hubris 
- 
-# Size 
- 
+A mortal wound reflects a life threatening wound to the character. This cannot be easily treated, and will negatively affect the character.
+
+When a mortal wound is gained, they recieve an effect from the [wound table](#Wound-table). This may be selected by rolling, or at the DM's discretion.
+
+A mortal wound cannot be removed trivially. They DM may select some of these options for removing wounds:
+ - Days or weeks of care in town to let your wounds heal
+ - Paying for the services of an expert healer
+ - Requiring the player to go on a small side quest
+ - Making it a permenant wound as a reminder of the players hubris
+
+# Size
+
