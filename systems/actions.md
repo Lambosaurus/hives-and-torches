@@ -74,6 +74,12 @@ A character may try to restrain a foe within natural reach that is already [grap
 
 The restrained foe may use its [primary action](#Primary-action) to make a strength test against you to escape.
 
+## Trip
+`secondary`
+This allows the character to attempt to trip a foe in natural reach. Make a [finesse](stats.md#Finesse) [test](rolls.md#Tests) against the foe.
+ - On success, the foe is [prone](statuses.md#prone).
+ - On a failure this action becomes [unsafe](#Unsafe-action).
+
 ## Off hand attack
 `secondary`
 If the character has a [melee weapon](weapons.md#Melee-weapon) in their off hand, and has already performed a [melee attack](#Melee-attack), they may make a second attack. This follows the rules of a melee attack, but has the following restrictions:
