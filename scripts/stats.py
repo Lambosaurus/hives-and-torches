@@ -1,9 +1,7 @@
-from random import randint as r
+import random
 
-# d(1,4) == d(4)
-def d(n, m = None):
-    if m == None: return r(1,n)
-    return sum( r(1,m) for i in range(n) )
+def roll(faces, count = 1):
+    return sum(random.randint(1, faces) for i in range(count))
 
 def clamp(v, low = None, high = None):
     if low != None and v < low: return low
@@ -12,8 +10,7 @@ def clamp(v, low = None, high = None):
 
 def fatigue(level, strength):
     strength = clamp(strength, 0)
-    return 4 + d(level, 4) + (strength * level)
-
+    return 4 + roll(level, 4) + (strength * level)
 
 # For some sample testing for fatigue at lvl 3
 #print( [fatigue(3,1) for i in range(10)] )
