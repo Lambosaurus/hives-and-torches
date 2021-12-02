@@ -1,4 +1,4 @@
-## Advantage
+# Advantage
 
 Advantage is a an additional `+1d4` that is added to your roll. These are given due to advantageous circumstances that improve your odds of succeeding your task. Advantage may stack indefintely, and is the opposite of [disadvantage](#Disadvantage).
 
@@ -10,7 +10,7 @@ Advantage and disadvantage can be applied to **any** roll at the DM's discretion
 
 Disadvantage is a `-1d4` that is added to your roll. See [advantage](#Advantage) for information on stacking.
 
-## Tests
+# Tests
 
 Tests are a roll that your character makes against a foe to perform some kind of action. This is done by comparing one of your [attributes](stats.md#Attributes) against an atribute of your foes.
 

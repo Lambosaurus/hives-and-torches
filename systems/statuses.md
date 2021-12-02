@@ -6,7 +6,7 @@ The following status effects are infliced on your character by various actions o
 
 A grappled character has been grabbed by a foe or magical effect. They cannot move without first escaping, and it is difficult to  
 
- - A grappled character may not move using their move or manouvering actions.
+ - A grappled character may not move using their [move](actions.md#Move) or [manoeuvre](actions.md#Manoeuvre) actions.
  - [Attacks](rolls.md#Attack) made against a grappled target are made with an [advantage](rolls.md#Advantage).
 
 The grappled character may use its action to attempt to escape the grapple using a strength test against the grappler.
@@ -15,18 +15,18 @@ The grappled character may use its action to attempt to escape the grapple using
 ## Restrained
 Restrained is an advanced form of [grappled](#grappled). You may not be both grapped and restrained.
 
- - A restrained character may not move using their move or manouvering actions.
+ - A restrained character may not move using their [move](actions.md#Move) or [manoeuvre](actions.md#Manoeuvre) actions.
  - The restrained character may not use any actions that require their hands, such as [attacking](rolls.md#Attack), or casting [spells](spells.md) with a [somatic component](spells.md#Somatic).
  - [Attacks](rolls.md#Attack) made against a restrained target are made with a `2x` [advantage](rolls.md#Advantage).
 
 The restrained character may use its action to attempt to escape being restrained using a strength test against the restrainer.
 
 ## Prone
-A prone character is lying on the ground. Their ability to move is reduced, and it is difficult to use weapons. Your character may willingly become prone by using their [manouver](actions.md#Manouvering) action to lie down.
+A prone character is lying on the ground. Their ability to move is reduced, and it is difficult to use weapons. Your character may willingly become prone by using their [manoeuvre](actions.md#Manoeuvre) action to lie down.
 
  - A prone character has its move actions modified. They may instead:
     - [Move](actions.md#Move) action to move up to half their speed
-    - [Manouver](actions.md#Manouvering) action to stand up
+    - [Manoeuvre](actions.md#Manoeuvre) action to stand up
 
  - Any [melee attacks](rolls.md#Melee-attack) against a prone character are made with an [advantage](rolls.md#Advantage).
  - Any [ranged attacks](rolls.md#Ranged-attack) against a prone character are made with a [disadvantage](rolls.md#Disadvantage).
@@ -52,7 +52,7 @@ This foe has been hamstrung, or is pinned by arrows or magic. Movement is extrem
 
 When a character is crippled:
  - Their movement using the [Move](actions.md#Move) action is halved
- - May not take the [Manouver](actions.md#Manouvering) action
+ - May not take the [manoeuvre](actions.md#Manoeuvre) action
 
 ## Unconscious 
 A character may be unconcious because they are asleep, under the effect of a [spell](spells.md#Spell), or have subcumb to their [wounds](stats.md#Wounds).
