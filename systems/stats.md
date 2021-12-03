@@ -47,17 +47,25 @@ If additional wounds are dealt when no free wounds remain, then a wound is inste
 
 ## Black out
 
-When no wounds are available, a character will become [unconscious](statuses.md#unconscious). Unconsciousness persists until a point of [fatigue](statuses.md#Fatigue) is restored.
+When no wounds are available, a character will become [unconscious](statuses.md#unconscious). Unconsciousness persists until a point of [fatigue](statuses.md#Fatigue) is restored. Once blacked out, a player character is likely to be ignored by foes while other targets remain.
 
-A player character may choose press on and stay concious instead of blacking out. If they do so, they will not be able to black out until they take another would.
+A player character may choose to [press on](#press-on) and stay conscious instead of blacking out.
+
+## Press on
+
+Instead of blacking out, a character may press on. Gritting their teeth to ignore the pain and hold their focus, they make a final stand against their foes.
+
+When a character chooses to press on:
+ - They be given the opportunity to [black out](#black-out) only when they take another wound.
+ - They will remain a priority target for foes.
 
 > ### Example 1
 > A character with `0` [fatigue](#Fatigue) and `2` wounds takes [damage](#Damage). This causes the `3`rd [wound](#Wounds), leaving `0` free wounds remaining. The character [blacks out](#Black-out) and remains [unconscious](statuses.md#Unconscious).
 >
-> In the following turn, this character recieves `3` points of [fatigue](#Fatigue) due to a [spell](spells.md). On his next turn, he stands up and takes his turn as normal. He remains on `3` wounds however.
+> In the following turn, this character recovers `3` points of [fatigue](#Fatigue) due to a [spell](spells.md). On his next turn, he stands up and takes his turn as normal. He remains on `3` wounds however.
 
 > ### Example 2
-> A character with `2` wounds takes his third `3`rd. The player chooses to persist, and remains standing.
+> A character with `2` wounds takes his third `3`rd. The player chooses to [press on](#press-on), and remains standing.
 >
 > In a following turn, a foe deals an additional [wound](#Wounds).
 > Because the character has no free wounds, one wound becomes a [mortal wound](#Mortal-wound). The character has another opportunity to [black out](#Black-out), and chooses to do so.
@@ -79,7 +87,7 @@ When a mortal wound is healed, it may not be 'good as new'. Scar tissue or missi
 > ### Example
 > Upon taking a [wound](#Wounds) while already on `3` wounds, and character is given a mortal wound from the [wound table](#Wound-table). The DM elects to give him the "fractured bone" wound, causing the player be to permanently [crippled](#Crippled).
 > 
-> This condition remains with the character for the remainder of the quest untill they return to their hometown. After several days of expert care in the towns temple, the mortal wound is eventually cured.
+> This condition remains with the character for the remainder of the quest until they return to their hometown. After several days of expert care in the towns temple, the mortal wound is eventually cured.
 
 # Size
 
