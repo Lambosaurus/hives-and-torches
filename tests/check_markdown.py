@@ -57,7 +57,7 @@ def all_anchors(path):
 
 # Returns a string of the emoji to use for a test result
 def pass_emoji(passed):
-    return "✔️  " if passed else "❌ "
+    return "✔️ " if passed else "❌ "
 
 # Checks the contents of a markdown file for links
 def check_links(path):
