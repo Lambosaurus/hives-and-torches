@@ -9,7 +9,8 @@
             "type": "python",
             "request": "launch",
             "program": "./tests/check_markdown.py",
-            "console": "integratedTerminal"
+            "console": "integratedTerminal",
+            "args": [ "--verbosity", "1" ]
         }
     ]
 }

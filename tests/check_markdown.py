@@ -1,6 +1,6 @@
 import re
 import os
-from sys import call_tracing
+import argparse
 
 LINK_REGEX = re.compile(r'\[(.*?)\]\((.*?)\)')
 ANCHOR_REGEX = re.compile(r'\s*\#+\s*(.*)')
@@ -79,7 +79,7 @@ def all_anchors(path):
                 yield match.group(1).strip()
 
 # Checks the contents of a markdown file for links
-def check_links(path):
+def check_links(path, verbosity = TEST_OK):
     print("Scanning '{}':".format(path))
     errors = 0
     line_number = 0
@@ -91,28 +91,33 @@ def check_links(path):
                 code, comment = check_link(uri, path)
                 if code == TEST_ERROR:
                     errors += 1
-                print("\t[{}] line{: 4}: '{}' => {}. {}".format(TEST_EMOJI[code], line_number, name, uri, comment))
+                line_ref = "{}:{}".format(path, line_number)
+                if code >= verbosity:
+                    print("\t[{}] {} '{}' => {}. {}".format(TEST_EMOJI[code], line_ref, name, uri, comment))
     print("{} errors in '{}'".format(errors, path))
     return errors
 
 # iterates over all markdown files in a directory
 def all_markdown_files(directory):
-        for root, dirs, files in os.walk(directory):
-            for path in files:
-                if path.endswith(".md"):
-                    yield os.path.join(root, path)
+    for root, dirs, files in os.walk(directory):
+        for path in files:
+            if path.endswith(".md"):
+                yield os.path.join(root, path)
 
 # Runs the checker on all markdown files in a directory
 # Return True if passing
-def run_all_checks():
+def run_all_checks(verbosity):
     checked = 0
     passed = 0
     for path in all_markdown_files("."):
-        if check_links(path) == 0:
+        if check_links(path, verbosity) == 0:
             passed += 1
         checked += 1
     print("{} files checked, {} passing.".format(checked, passed))
     return checked == passed
 
 if __name__ == "__main__":
-    exit(0 if run_all_checks() else 1)
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--verbosity", help="Level of errors to display. (0: All, 1: Warn, 2: Errors)", type=int, default=TEST_OK)
+    args = parser.parse_args()
+    exit(0 if run_all_checks(**vars(args)) else 1)
