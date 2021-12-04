@@ -10,7 +10,7 @@ In a characters turn they may use the following:
 You may downgrade a primary action to a secondary action, and a secondary action to a reaction.
 
 ## Unsafe action
-Some actions are unsafe, and leave you vulnerable to an attack from an elegible foe. These actions may provoke an [Attack of opportunity](#Attack-of-opportunity).
+Some actions are unsafe, and leave you vulnerable to an attack from an elegible foe. These actions may provoke an [Attack of opportunity](#attack-of-opportunity).
 
 # Primary action
 The primary action represents the action that is the characters focus for this turn. This action usually takes:
@@ -47,11 +47,11 @@ The following is a list of basic actions available to all characters.
 
 ## Melee Attack
 `primary`
-The character makes an attack with their primary weapon. See [melee attack](rolls.md#Melee-Attack) for more information.
+The character makes an attack with their primary weapon. See [melee attack](rolls.md#melee-attack) for more information.
 
 ## Ranged Attack
 `primary`, `unsafe`
-The character makes an attack with their ranged weapon. See [ranged attack](rolls.md#Ranged-Attack) for more information.
+The character makes an attack with their ranged weapon. See [ranged attack](rolls.md#ranged-attack) for more information.
 
 ## Cast a spell
 `primary`, `unsafe`
@@ -64,39 +64,39 @@ A character may use a special item from their inventory. A typical example of th
 
 ## Grapple
 `primary`
-A character may try to grapple a foe within natural reach. To grapple a foe, you must have at least one completely free hand. You must roll a [strength](stats.md#Strength) [test](rolls.md#Tests) against their [finesse](stats.md#Finesse). On success, the foe is [grappled](statuses.md#grappled), and may not move. When a foe is grappled, you may use your [movement](#Move) to move up to half your [speed](stats.md#Speed), taking the foe with you.
+A character may try to grapple a foe within natural reach. To grapple a foe, you must have at least one completely free hand. You must roll a [strength](stats.md#strength) [test](rolls.md#tests) against their [finesse](stats.md#finesse). On success, the foe is [grappled](statuses.md#grappled), and may not move. When a foe is grappled, you may use your [movement](#move) to move up to half your [speed](stats.md#speed), taking the foe with you.
 
-The grappled foe may use its [primary action](#Primary-action) to make a strength test against you to escape.
+The grappled foe may use its [primary action](#primary-action) to make a strength test against you to escape.
 
 ## Restrain
 `primary`
-A character may try to restrain a foe within natural reach that is already [grappled](statuses.md#grappled). To restrain a foe, you must have two completely free hands. You must roll a [strength](stats.md#Strength) [test](rolls.md#Tests) against the foe. On success, the foe is [restrained](statuses.md#restrained), and may not use any actions that require hands.
+A character may try to restrain a foe within natural reach that is already [grappled](statuses.md#grappled). To restrain a foe, you must have two completely free hands. You must roll a [strength](stats.md#strength) [test](rolls.md#tests) against the foe. On success, the foe is [restrained](statuses.md#restrained), and may not use any actions that require hands.
 
-The restrained foe may use its [primary action](#Primary-action) to make a strength test against you to escape.
+The restrained foe may use its [primary action](#primary-action) to make a strength test against you to escape.
 
 ## Trip
 `secondary`
-This allows the character to attempt to trip a foe in natural reach. Make a [finesse](stats.md#Finesse) [test](rolls.md#Tests) against the foe.
+This allows the character to attempt to trip a foe in natural reach. Make a [finesse](stats.md#finesse) [test](rolls.md#tests) against the foe.
  - On success, the foe is [prone](statuses.md#prone).
- - On a failure this action becomes [unsafe](#Unsafe-action).
+ - On a failure this action becomes [unsafe](#unsafe-action).
 
 ## Off hand attack
 `secondary`
-If the character has a [melee weapon](weapons.md#Melee-weapon) in their off hand, and has already performed a [melee attack](#Melee-attack), they may make a second attack. This follows the rules of a melee attack, but has the following restrictions:
+If the character has a [melee weapon](weapons.md#melee-weapons) in their off hand, and has already performed a [melee attack](#melee-attack), they may make a second attack. This follows the rules of a melee attack, but has the following restrictions:
  * Both weapons must be `light`
- * Both attacks will be at [disadvantage](rolls.md#Disadvantage).
+ * Both attacks will be at [disadvantage](rolls.md#disadvantage).
 
 ## Push
 `secondary`
-If the character has a free hand or shield, they may make a [strength](stats.md#Strength) [test](rolls.md#Tests) against the foe to push them back 5 feet.
+If the character has a free hand or shield, they may make a [strength](stats.md#strength) [test](rolls.md#tests) against the foe to push them back 5 feet.
 
 ## Move
 `secondary`, `unsafe`
-The character moves at a comfortable pace, moving up to their [normal movement](stats.md#Speed). This may be interleaved with your other actions.
+The character moves at a comfortable pace, moving up to their [normal movement](stats.md#speed). This may be interleaved with your other actions.
 
 ## Manoeuvre
 `secondary`
-The character makes a careful 5 foot step. This does **not** trigger an [attack of opportunity](#Attack-of-opportunity).
+The character makes a careful 5 foot step. This does **not** trigger an [attack of opportunity](#attack-of-opportunity).
 
 ## Draw a weapon
 `secondary`
@@ -104,11 +104,11 @@ The character draws a weapon.
 
 ## Attack of opportunity
 `reaction`
-An attack of opportunity is triggered by a foe performing an [unsafe action](#Unsafe-action) while within your weapon reach.
+An attack of opportunity is triggered by a foe performing an [unsafe action](#unsafe-action) while within your weapon reach.
 
 Unsafe actions include:
- * Taking the [move](#Move) action
- * Casting a [spell](#spells.md) with a primary action
+ * Taking the [move](#move) action
+ * Casting a [spell](spells.md) with a primary action
  * Using an item (and the DM's discretion)
 
-The basic attack of opportunity enables you to perform a [melee attack](rolls.ms#Melee-attack) against the foe. You must have a [melee weapon](weapons.md#Melee-weapon) in your hand to be eligible for this action.
+The basic attack of opportunity enables you to perform a [melee attack](rolls.md#melee-attack) against the foe. You must have a [melee weapon](weapons.md#melee-weapons) in your hand to be eligible for this action.

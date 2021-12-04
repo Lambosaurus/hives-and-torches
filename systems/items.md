@@ -10,7 +10,7 @@ What the item is called
 A description should include the items appearance, and any effects or special rules it has.
 
 ## Weight
-How much of a physical burden the item is to carry. See [Encumbrance](stats.md#Encumbrance)
+How much of a physical burden the item is to carry. See [Encumbrance](stats.md#encumbrance)
 
 ## Value
 The expected marketable value of this item, given normal circumstances.

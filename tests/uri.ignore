@@ -3,51 +3,31 @@
 
 // Combat rules not yet created
 combat.md#damage-types
-weapons.md#Weapon-reach
-weapons.md#Weapon-range
+weapons.md#weapon-reach
+weapons.md#weapon-range
 
 // Stats that need to be created
-#Strenth        // Just a typo
-stats.md#Speed
-stats.md#Damage
-stats.md#Wounds
-status.md#Strength
-stats.md#Encumbrance
-#Encumberance
-#Level
-#Critical-failure
-
-// Various typos for attacks...
-#Attack
-rolls.md#Attack
-rolls.md#Ranged-attacks
-rolls.md#Melee-attacks
-weapons.md#Melee-weapon
-rolls.ms#Melee-attacks
-rolls.ms#Melee-attack
-rolls#Crititals
+stats.md#speed
+stats.md#damage
+stats.md#wounds
+stats.md#encumbrance
+#encumberance
+#level
 
 // Items
-items.md#Armor
-items.md#Heavy-armor
-
-// Actions
-actions.md#Unsafe
-actions#Attack-of-opportunity       // Forgot .md
+items.md#armor
+items.md#heavy-armor
 
 // Feats to be created or deleted
 feats.md#feats
-feats.md#Twist-the-knife
-feats.md#Stunning-blow
+feats.md#twist-the-knife
+feats.md#stunning-blow
 
 // These need to be replaced with the new spells.
 spells.md
-#spells.md  // I need help
-spells.md#Spell
-spells.md#Spells
-spells.md#Somatic
-spells.md#Divine-magic
-spells.md#Arcane-magic
+spells.md#somatic
+spells.md#divine-magic
+spells.md#arcane-magic
 
 // Classes not yet pushed
 classes.md#zealot
