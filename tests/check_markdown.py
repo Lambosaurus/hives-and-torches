@@ -91,7 +91,7 @@ def check_links(path):
                 code, comment = check_link(uri, path)
                 if code == TEST_ERROR:
                     errors += 1
-                print("\t[{}] line {: 3}: '{}' => {}. {}".format(TEST_EMOJI[code], line_number, name, uri, comment))
+                print("\t[{}] line{: 4}: '{}' => {}. {}".format(TEST_EMOJI[code], line_number, name, uri, comment))
     print("{} errors in '{}'".format(errors, path))
     return errors
 
