@@ -61,7 +61,11 @@ def check_link(uri, source_path):
 
     # If there is an anchor, it must exist
     if anchor is not None:
-        anchor = anchor.replace('-', ' ').lower()
+
+        if anchor.lower() != anchor:
+            return TEST_ERROR, "Anchor must be lowercase."
+
+        anchor = anchor.replace('-', ' ')
         for candidate in all_anchors(path):
             if anchor == candidate.lower():
                 return TEST_OK, ""
