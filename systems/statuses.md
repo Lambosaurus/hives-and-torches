@@ -58,8 +58,8 @@ When a character is blighted:
 By fever or headwound, this character has trouble focusing and reacting.
 
 When a character is dazed:
- - All [tests](rolls.md#tests) and [spells](rolls.md#spells) based on [intellect](stats.md#intellect) or [will](stats.md#will) are done with [disadvantage](rolls.md#disadvantage).
- - They may **not** take [reactions](actions.md#reaction).
+ - All [tests](rolls.md#tests) and [spells](spells.md) based on [intellect](stats.md#intellect) or [will](stats.md#will) are done with [disadvantage](rolls.md#disadvantage).
+ - They may **not** take [reactions](actions.md#reactions).
 
 ## Crippled
 This foe has been hamstrung, or is pinned by arrows or magic. Movement is extremely difficult.
