@@ -8,6 +8,13 @@ It draws from a varity of inspriations, including:
  - Five torches deep
  - Darkest dungeon
 
+# Markdown
+
+We have implemented this in markdown so these documents are as easy to traverse as possible.
+Testing is implemented to ensure that links are valid.
+
+[![Tests](https://github.com/Lambosaurus/hives-and-torches/actions/workflows/tests.yml/badge.svg)](https://github.com/Lambosaurus/hives-and-torches/actions/workflows/tests.yml)
+
 # Design intent
 
 ## Combat feel
@@ -21,6 +28,9 @@ The power growth is significantly reduced from 5e. Multiple attacks are no longe
 ## Mood
 This ruleset is intended to invoke a more serious tone. Winning a fight is not the only goal - but winning it well, without taking on mortal wounds.
 This is intended to make the outcomes of combat more serious, and encourage more role playing about the aftermath of combat. Pushing into a dungeon should leave the characters fatigued, and turning back may be the only rational option.
+
+## Roleplay and diplomacy
+In other systems, charisma the the primary attribute for diplomacy, leading to the party having a "face" character. Instead, the other attributes are now responsible for the different types of diplomacy. This leads to better variety in party interractions. A high strength fighter will be more suited to impressing a barbiarian, wheras a high intellegence character would be able to logically convince a scholar of the correct action.
 
 # Core rules
 
