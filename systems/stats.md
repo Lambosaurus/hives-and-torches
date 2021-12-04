@@ -1,4 +1,7 @@
 
+# Level
+[This section is a stub. Submit a Pull Request to edit it](https://github.com/Lambosaurus/hives-and-torches/edit/main/systems/stats.md)
+
 # Attributes
 These attributes are intrinsic to your character. They represent the base capabilities of your body and mind. These will only change rarely throughout a characters journey.
 
@@ -14,7 +17,7 @@ There are four attributes:
 Strength is sum of a characters physique and size.
 Strength represents a characters capacity to perform physical activities including fighting in melee, moving heavy objects, breaking stuff etc.  Strength is the primary stat for melee combat
 
-Strength is primarially used for [melee attacks](rolls.md#melee-attack) and [encumberance](#encumberance).
+Strength is primarially used for [melee attacks](rolls.md#melee-attack) and [encumbrance](#encumbrance).
 
 ## Finesse
 A character with finesse is capable of both quick and precice actions.
@@ -33,8 +36,7 @@ Will represents the strength of grit determination and personal confidence a cha
 
 Will is primarially used for [divine magic](spells.md#divine-magic)
 
-# Other stats?
-
+# Properties
 
 ## Defence
 Defence represents how capable a character is at protecting themselves from foes. This might be using quick footwork or heavy armor plating.
@@ -53,25 +55,35 @@ Your maximum fatigue is based on [strength](#strength). If this characters stren
 
 The DM may choose to allow players to reroll `1`'s when rolling to add maximum fatigue.
 
+## Speed
+[This section is a stub. Submit a Pull Request to edit it](https://github.com/Lambosaurus/hives-and-torches/edit/main/systems/stats.md)
+
+## Encumbrance
+[This section is a stub. Submit a Pull Request to edit it](https://github.com/Lambosaurus/hives-and-torches/edit/main/systems/stats.md)
+
+## Size
+[This section is a stub. Submit a Pull Request to edit it](https://github.com/Lambosaurus/hives-and-torches/edit/main/systems/stats.md)
+
+
 # Health and wounds 
  
 ## Damage 
-Damage is the number dealt to a character due to an [attack](rolls.md#Attack) or other effect after [defence](#Defence) is considered. 
+Damage is the number dealt to a character due to an [attack](rolls.md#attacks) or other effect after [defence](#defence) is considered. 
  
 Damage is dealt to a character in the following order:
- 1. The damage is subtracted from your [fatigue](#Fatigue). If there is any remaining damage, it overflows to step 2.
- 2. Damage dealt at `0` fatigue is dealt as a single [wound](#Wounds).
+ 1. The damage is subtracted from your [fatigue](#fatigue). If there is any remaining damage, it overflows to step 2.
+ 2. Damage dealt at `0` fatigue is dealt as a single [wound](#wounds).
 
 > ### Example 1
-> A character with `11` [fatigue](#Fatigue) recieves `4` damage, leaving him on `7` fatigue.
-> All the damage is dealt to his fatigue, so he does not take a [wound](#Wounds).
+> A character with `11` [fatigue](#fatigue) recieves `4` damage, leaving him on `7` fatigue.
+> All the damage is dealt to his fatigue, so he does not take a [wound](#wounds).
 
 > ### Example 2
-> A character with `3` [fatigue](#Fatigue) recieves `6` damage. This leaves him with `0` fatigue and still with damage remaining. This causes him to take a [wound](#Wounds). Because he still has `2` wounds remaining, he continues fighting.
+> A character with `3` [fatigue](#fatigue) recieves `6` damage. This leaves him with `0` fatigue and still with damage remaining. This causes him to take a [wound](#wounds). Because he still has `2` wounds remaining, he continues fighting.
 
 ## Wounds
 
-Characters have a set number of wound slots. For [medium](#Size) players this number is `3`. These wounds can individually be in one of three states.
+Characters have a set number of wound slots. For [medium](#size) players this number is `3`. These wounds can individually be in one of three states.
  - Free
  - Wounded
  - Mortally wounded
@@ -84,7 +96,7 @@ If additional wounds are dealt when no free wounds remain, then a wound is inste
 
 ## Black out
 
-When no wounds are available, a character will become [unconscious](statuses.md#unconscious). Unconsciousness persists until a point of [fatigue](stats.md#Fatigue) is restored. Once blacked out, a player character is likely to be ignored by foes while other targets remain.
+When no wounds are available, a character will become [unconscious](statuses.md#unconscious). Unconsciousness persists until a point of [fatigue](stats.md#fatigue) is restored. Once blacked out, a player character is likely to be ignored by foes while other targets remain.
 
 A player character may choose to [press on](#press-on) and stay conscious instead of blacking out.
 
@@ -97,21 +109,21 @@ When a character chooses to press on:
  - They will remain a priority target for foes.
 
 > ### Example 1
-> A character with `0` [fatigue](#Fatigue) and `2` wounds takes [damage](#Damage). This causes the `3`rd [wound](#Wounds), leaving `0` free wounds remaining. The character [blacks out](#Black-out) and remains [unconscious](statuses.md#Unconscious).
+> A character with `0` [fatigue](#fatigue) and `2` wounds takes [damage](#damage). This causes the `3`rd [wound](#wounds), leaving `0` free wounds remaining. The character [blacks out](#black-out) and remains [unconscious](statuses.md#unconscious).
 >
-> In the following turn, this character recovers `3` points of [fatigue](#Fatigue) due to a [spell](spells.md). On his next turn, he stands up and takes his turn as normal. He remains on `3` wounds however.
+> In the following turn, this character recovers `3` points of [fatigue](#fatigue) due to a [spell](spells.md). On his next turn, he stands up and takes his turn as normal. He remains on `3` wounds however.
 
 > ### Example 2
 > A character with `2` wounds takes his third `3`rd. The player chooses to [press on](#press-on), and remains standing.
 >
-> In a following turn, a foe deals an additional [wound](#Wounds).
-> Because the character has no free wounds, one wound becomes a [mortal wound](#Mortal-wounds). The character has another opportunity to [black out](#Black-out), and chooses to do so.
+> In a following turn, a foe deals an additional [wound](#wounds).
+> Because the character has no free wounds, one wound becomes a [mortal wound](#mortal-wounds). The character has another opportunity to [black out](#black-out), and chooses to do so.
 
 ## Mortal wounds
  
 A mortal wound reflects a life threatening wound to the character. This cannot be easily treated, and will negatively affect the character.
 
-When a mortal wound is gained, they recieve an effect from the [wound table](#Wound-table). This may be selected by rolling, or at the DM's discretion.
+When a mortal wound is gained, they recieve an effect from the [wound table](#wound-table). This may be selected by rolling, or at the DM's discretion.
 
 A mortal wound cannot be removed trivially. They DM may select some of these options for removing wounds:
  - Days or weeks of care in town to let your wounds heal
@@ -122,12 +134,9 @@ A mortal wound cannot be removed trivially. They DM may select some of these opt
 When a mortal wound is healed, it may not be 'good as new'. Scar tissue or missing digits could still remain. The worst of the trauma has healed, and the character has learned to make do with the body they have.
 
 > ### Example
-> Upon taking a [wound](#wounds) while already on `3` wounds, and character is given a mortal wound from the [wound table](#Wound-table). The DM elects to give him the "fractured bone" wound, causing the player be to permanently [crippled](statuses.md#Crippled).
+> Upon taking a [wound](#wounds) while already on `3` wounds, and character is given a mortal wound from the [wound table](#wound-table). The DM elects to give him the "fractured bone" wound, causing the player be to permanently [crippled](statuses.md#crippled).
 > 
 > This condition remains with the character for the remainder of the quest until they return to their hometown. After several days of expert care in the towns temple, the mortal wound is eventually cured.
 
 ## Wound Table
 [This section is a stub. Submit a Pull Request to edit it](https://github.com/Lambosaurus/hives-and-torches/edit/main/systems/stats.md)
-
-# Size
-
