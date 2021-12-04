@@ -78,13 +78,13 @@ Characters have a set number of wound slots. For [medium](#Size) players this nu
 
 When you take a wound, one of your free slots becomes wounded. Wounds are difficult to remove - and require special magics or healing items.
 
-When a character has no free wounds remaining, they will [black out](#Black-out).
+When a character has no free wounds remaining, they will [black out](#black-out).
 
-If additional wounds are dealt when no free wounds remain, then a wound is instead upgraded to a [mortal wound](#Mortal-wound). When all wound slots are filled with [mortal wounds](#Mortal-wounds), then the character is [dead](statuses.md#Dead).
+If additional wounds are dealt when no free wounds remain, then a wound is instead upgraded to a [mortal wound](#mortal-wounds). When all wound slots are filled with [mortal wounds](#mortal-wounds), then the character is [dead](statuses.md#dead).
 
 ## Black out
 
-When no wounds are available, a character will become [unconscious](statuses.md#unconscious). Unconsciousness persists until a point of [fatigue](statuses.md#Fatigue) is restored. Once blacked out, a player character is likely to be ignored by foes while other targets remain.
+When no wounds are available, a character will become [unconscious](statuses.md#unconscious). Unconsciousness persists until a point of [fatigue](stats.md#Fatigue) is restored. Once blacked out, a player character is likely to be ignored by foes while other targets remain.
 
 A player character may choose to [press on](#press-on) and stay conscious instead of blacking out.
 
@@ -105,9 +105,9 @@ When a character chooses to press on:
 > A character with `2` wounds takes his third `3`rd. The player chooses to [press on](#press-on), and remains standing.
 >
 > In a following turn, a foe deals an additional [wound](#Wounds).
-> Because the character has no free wounds, one wound becomes a [mortal wound](#Mortal-wound). The character has another opportunity to [black out](#Black-out), and chooses to do so.
+> Because the character has no free wounds, one wound becomes a [mortal wound](#Mortal-wounds). The character has another opportunity to [black out](#Black-out), and chooses to do so.
 
-## Mortal wound
+## Mortal wounds
  
 A mortal wound reflects a life threatening wound to the character. This cannot be easily treated, and will negatively affect the character.
 
@@ -122,9 +122,12 @@ A mortal wound cannot be removed trivially. They DM may select some of these opt
 When a mortal wound is healed, it may not be 'good as new'. Scar tissue or missing digits could still remain. The worst of the trauma has healed, and the character has learned to make do with the body they have.
 
 > ### Example
-> Upon taking a [wound](#Wounds) while already on `3` wounds, and character is given a mortal wound from the [wound table](#Wound-table). The DM elects to give him the "fractured bone" wound, causing the player be to permanently [crippled](#Crippled).
+> Upon taking a [wound](#wounds) while already on `3` wounds, and character is given a mortal wound from the [wound table](#Wound-table). The DM elects to give him the "fractured bone" wound, causing the player be to permanently [crippled](statuses.md#Crippled).
 > 
 > This condition remains with the character for the remainder of the quest until they return to their hometown. After several days of expert care in the towns temple, the mortal wound is eventually cured.
+
+## Wound Table
+[This section is a stub. Submit a Pull Request to edit it](https://github.com/Lambosaurus/hives-and-torches/edit/main/systems/stats.md)
 
 # Size
 
