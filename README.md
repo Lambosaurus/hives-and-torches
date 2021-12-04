@@ -8,6 +8,13 @@ It draws from a varity of inspriations, including:
  - Five torches deep
  - Darkest dungeon
 
+# Markdown
+
+We have implemented this in markdown so these documents are as easy to traverse as possible.
+Testing is implemented to ensure that links are valid.
+
+[![Tests](https://github.com/Lambosaurus/hives-and-torches/actions/workflows/tests.yml/badge.svg)](https://github.com/Lambosaurus/hives-and-torches/actions/workflows/tests.yml)
+
 # Design intent
 
 ## Combat feel
