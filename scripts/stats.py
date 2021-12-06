@@ -9,8 +9,9 @@ def clamp(v, low = None, high = None):
     return v
 
 class Character():
-    def __init__(self, name, strength = 0, finesse = 0, intellect = 0, will = 0, max_wounds = 1):
+    def __init__(self, name, strength = 0, finesse = 0, intellect = 0, will = 0, max_wounds = 3):
         self.name = name
+        self.clones = 0
 
         self.strength = strength
         self.finesse = finesse
@@ -20,18 +21,38 @@ class Character():
 
         self.level = 0
         self.max_fatigue = 4
-        self.level_to(1)
-        self.set_armor(0)
         self.restore_all()
+        self.set_level(1)
+        self.set_armor(0)
+ 
+        self.ai = lambda foes: random.choice(foes)
+
+    def clone(self):
+        self.clones += 1
+        name = "{}#{}".format(self.name, self.clones)
+        char = Character(name, self.strength, self.finesse, self.intellect, self.will, self.max_wounds)
+        char.set_level(self.level)
+        char.set_armor(*self.armor)
+        char.set_weapon(self.weapon_die)
+        char.set_ai(self.ai)
+        return char
+
+    def set_ai(self, ai):
+        self.ai = ai
+        return self
 
     def __str__(self):
         return "{} ({}/{})".format(self.name, self.fatigue, self.max_fatigue)
+
+    def select_foe(self, foes):
+        return self.ai(foes)
 
     # Returns the character to a healthy state
     def restore_all(self):
         self.fatigue = self.max_fatigue
         self.wounds = 0
         self.alive = True
+        return self
 
     # Restores the given number of fatigue
     def restore_fatigue(self, amount):
@@ -42,17 +63,23 @@ class Character():
         self.wounds = clamp(self.wounds - amount, 0, self.max_wounds)
 
     # Sets the armor value for the character
-    def set_armor(self, armor):
-        self.defence = self.finesse + armor
+    def set_armor(self, armor, heavy = False):
+        self.armor = (armor, heavy)
+        self.defence = armor
+        if not heavy:
+            self.defence += clamp(self.finesse, 0)
+        return self
 
     # Does successive levelups until the character is at the specified level
-    def level_to(self, level):
+    def set_level(self, level):
         while self.level < level:
             self.level_up()
+        return self
 
     # Sets the weapon die for the character
     def set_weapon(self, die):
         self.weapon_die = die
+        return self
 
     # Rolls the attacks for the character
     # If a foe is specified, the damage will be applied to the foe
@@ -70,7 +97,9 @@ class Character():
     # Performs a level up
     def level_up(self):
         self.level += 1
-        self.max_fatigue += roll(4) + clamp(self.strength, 0)
+        fatigue = roll(4) + clamp(self.strength, 0)
+        self.max_fatigue += fatigue
+        self.fatigue += fatigue
 
     # Returns true if the character is alive
     def is_alive(self):
@@ -103,30 +132,55 @@ class Character():
             if self.wounds >= self.max_wounds:
                 self.kill(verbose=verbose)
             else:
-                if verbose: print("{} is wounded".format(str(self)))
+                if verbose: print("{} takes wound {}".format(str(self), self.wounds))
  
     # Returns True if the character is wounded
     def is_wounded(self):
         return self.wounds > 0
 
+def fight_round(char, foes, verbose = False):
+    if len(foes) == 0:
+        return
+    foe = char.select_foe(foes)
+    char.attack(foe, verbose=verbose)
+    if not foe.is_alive():
+        foes.remove(foe)
 
-def pit_fight(char1, char2, verbose = False):
-    while char1.is_alive() and char2.is_alive():
-        char1.attack(char2, verbose=verbose)
-        if char2.is_alive():
-            char2.attack(char1, verbose=verbose)
+def fight(party1, party2, suprise_round = None, verbose = False):
 
+
+    if suprise_round == None:
+        suprise_round = len(party1)
+    
+    for i in range(suprise_round):
+        i += len(party1) - suprise_round
+        fight_round(party1[i], party2, verbose=verbose)
+
+    while len(party1) > 0 and len(party2) > 0:
+        for char in party2:
+            fight_round(char, party1, verbose=verbose)
+        for char in party1:
+            fight_round(char, party2, verbose=verbose)
+            
 def main():
+    pc_level = 3
+    fighter = Character("Fighter", strength=2, finesse=1).set_weapon(8).set_level(pc_level).set_armor(5,True)
+    fighter.set_ai( lambda foes: foes[0] )
+    rogue = Character("Rogue", strength=0, finesse=3).set_weapon(6).set_level(pc_level).set_armor(3)
+    wizard = Character("Wizard") .set_weapon(4).set_level(pc_level).set_armor(1)
 
-    char1 = Character("Player", strength=0, finesse=2, max_wounds=3)
-    char1.set_weapon(6)
-    char1.level_to(1)
-    char1.set_armor(1)
-    char2 = Character("Goblin", strength=1, finesse=2)
-    char2.set_weapon(6)
-    char2.level_to(1)
+    party = [
+        fighter,
+        rogue,
+        wizard,
+    ]
 
-    pit_fight(char1, char2, verbose=True)
+    goblin = Character("Goblin", strength=1, finesse=2, max_wounds=1).set_weapon(6).set_level(1)
+    hobgoblin = Character("Hobgoblin", strength=3, finesse=1, max_wounds=3).set_weapon(8).set_level(3)
+    hobgoblin.set_ai( lambda foes: foes[0] )
+    goblins = [hobgoblin.clone()] + [goblin.clone() for i in range(4)]
+
+    fight(party, goblins, suprise_round=2, verbose=True)
 
 if __name__ == "__main__":
     main()
