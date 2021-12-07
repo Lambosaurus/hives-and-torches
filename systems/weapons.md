@@ -1,5 +1,5 @@
 # Weapons
-Weapons are [items](items.md#Items) that can be equipped, and used in [attacks](rolls.md#attacks)
+Weapons are [items](items.md#items) that can be equipped, and used in [attacks](rolls.md#attacks)
 
 Weapons have these additional attributes:
 
