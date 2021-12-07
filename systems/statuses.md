@@ -47,11 +47,25 @@ Note that some foes may have access to other forms of locating targets. This wil
 ## Bleeding
 [This section is a stub. Submit a Pull Request to edit it](https://github.com/Lambosaurus/hives-and-torches/edit/main/systems/statuses.md)
 
+## Blighted
+A blighted character is is being weaked by an infection, toxins, or parasites.
+
+When a character is blighted:
+ - All [tests](rolls.md#tests) and [attacks](rolls.md#attacks) based on [strength](stats.md#strength) or [finesse](stats.md#finesse) are done with [disadvantage](rolls.md#disadvantage).
+ - [fatige](stats.md#fatigue) resoration is reduced by half.
+
+## Dazed
+By fever or headwound, this character has trouble focusing and reacting.
+
+When a character is dazed:
+ - All [tests](rolls.md#tests) and [spells](spells.md) based on [intellect](stats.md#intellect) or [will](stats.md#will) are done with [disadvantage](rolls.md#disadvantage).
+ - They may **not** take [reactions](actions.md#reactions).
+
 ## Crippled
 This foe has been hamstrung, or is pinned by arrows or magic. Movement is extremely difficult.
 
 When a character is crippled:
- - Their movement using the [Move](actions.md#Move) action is halved
+ - Their movement using the [move](actions.md#Move) action is halved
  - May not take the [manoeuvre](actions.md#Manoeuvre) action
 
 ## Unconscious 
