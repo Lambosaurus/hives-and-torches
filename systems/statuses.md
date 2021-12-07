@@ -45,13 +45,27 @@ A blinded foe has lost the ability to see their foes.
 Note that some foes may have access to other forms of locating targets. This will be mentioned in their stat sheet, and renders them functionally immune to being blinded.
 
 ## Bleeding
-This is a stub
+[This section is a stub. Submit a Pull Request to edit it](https://github.com/Lambosaurus/hives-and-torches/edit/main/systems/statuses.md)
+
+## Blighted
+A blighted character is is being weaked by an infection, toxins, or parasites.
+
+When a character is blighted:
+ - All [tests](rolls.md#tests) and [attacks](rolls.md#attacks) based on [strength](stats.md#strength) or [finesse](stats.md#finesse) are done with [disadvantage](rolls.md#disadvantage).
+ - [fatige](stats.md#fatigue) resoration is reduced by half.
+
+## Dazed
+By fever or headwound, this character has trouble focusing and reacting.
+
+When a character is dazed:
+ - All [tests](rolls.md#tests) and [spells](spells.md) based on [intellect](stats.md#intellect) or [will](stats.md#will) are done with [disadvantage](rolls.md#disadvantage).
+ - They may **not** take [reactions](actions.md#reactions).
 
 ## Crippled
 This foe has been hamstrung, or is pinned by arrows or magic. Movement is extremely difficult.
 
 When a character is crippled:
- - Their movement using the [Move](actions.md#move) action is halved
+ - Their movement using the [move](actions.md#move) action is halved
  - May not take the [manoeuvre](actions.md#manoeuvre) action
 
 ## Unconscious 
@@ -125,34 +139,34 @@ A character is considered flanking if there is another friendly character who me
 When a character is flanking a foe:
  - All [melee attacks](rolls.md#melee-attack) against the foe are with and [advantage](rolls.md#advantage)
 
-### Example 1:
-```
-Case 1            Case 2           Case 3
-┌───┬───┬───┐    ┌───┬───┬───┐    ┌───┬───┬───┐
-│   │   │   │    │   │   │   │    │   │   │   │
-├───┼───┼───┤    ├───┼───┼───┤    ├───┼───┼───┤
-│   │ X │   │    │   │ X │   │    │ C │ X │   │
-├───┼───┼───┤    ├───┼───┼───┤    ├───┼───┼───┤
-│   │ A │ B │    │ A │   │ B │    │   │ A │ B │
-└───┴───┴───┘    └───┴───┴───┘    └───┴───┴───┘
-```
-In *Case 1*, characters A and B are **not** flanking the foe X, because the corner threatened by B is adjacent to the face threatend by A.
+> ### Example 1:
+> ```
+> Case 1            Case 2           Case 3
+> ┌───┬───┬───┐    ┌───┬───┬───┐    ┌───┬───┬───┐
+> │   │   │   │    │   │   │   │    │   │   │   │
+> ├───┼───┼───┤    ├───┼───┼───┤    ├───┼───┼───┤
+> │   │ X │   │    │   │ X │   │    │ C │ X │   │
+> ├───┼───┼───┤    ├───┼───┼───┤    ├───┼───┼───┤
+> │   │ A │ B │    │ A │   │ B │    │   │ A │ B │
+> └───┴───┴───┘    └───┴───┴───┘    └───┴───┴───┘
+> ```
+> In *Case 1*, characters A and B are **not** flanking the foe X, because the corner threatened  by B is adjacent to the face threatend by A.
+>
+> In *Case 2* characters A and B **are** flanking, because their corners are not adjacent.
+>
+> In *Case 3* characters A, B and C are **all** flanking. A and B are both not threatening the same face as C.
 
-In *Case 2* characters A and B **are** flanking, because their corners are not adjacent.
-
-In *Case 3* characters A, B and C are **all** flanking. A and B are both not threatening the same face as C.
-
-### Example 2:
-```
-┌───┬───┬───┐
-│   │ X │ X │
-├───┼───┼───┤
-│   │ X │ X │ 
-├───┼───┼───┤ 
-│ A │   │ B │
-└───┴───┴───┘
-```
-The large foe, X, occupies 4 squares. A and B are **not** flanking, because the corner threatened by A is adjacent to the edge threatened by B.
-
+> ### Example 2:
+> ```
+> ┌───┬───┬───┐
+> │   │ X │ X │
+> ├───┼───┼───┤
+> │   │ X │ X │ 
+> ├───┼───┼───┤ 
+> │ A │   │ B │
+> └───┴───┴───┘
+> ```
+> The large foe, X, occupies 4 squares. A and B are **not** flanking, because the corner threatened by A is adjacent to the edge threatened by B.
+>
 ### Cases with high weapon reach
 It can be difficult to determine the threatened face or corner when a character with `10 feet` or higher reach are attacking a foe. For now, this shall be left to the discretion of the DM.
