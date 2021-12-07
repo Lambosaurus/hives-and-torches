@@ -30,7 +30,7 @@ This ruleset is intended to invoke a more serious tone. Winning a fight is not t
 This is intended to make the outcomes of combat more serious, and encourage more role playing about the aftermath of combat. Pushing into a dungeon should leave the characters fatigued, and turning back may be the only rational option.
 
 ## Roleplay and diplomacy
-In other systems, charisma the the primary attribute for diplomacy, leading to the party having a "face" character. Instead, the other attributes are now responsible for the different types of diplomacy. This leads to better variety in party interractions. A high strength fighter will be more suited to impressing a barbiarian, wheras a high intellegence character would be able to logically convince a scholar of the correct action.
+In other systems, charisma is the primary attribute for diplomacy: leading to the party having a "face" character. Instead, the other attributes are now responsible for the different types of diplomacy. This leads to better variety in party interractions. A high strength fighter will be more suited to impressing a barbiarian, wheras a high intellegence character would be able to logically convince a scholar of the correct action.
 
 # Core rules
 
