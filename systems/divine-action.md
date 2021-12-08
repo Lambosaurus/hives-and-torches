@@ -21,6 +21,7 @@ A prayer also grants the character a passive ability.
 
 ## Prayer of Mercy
 `Domain: General` `Domain: Healing` `Domain: Grave`
+
 ### Tenets
 
 **Heal those in need**: Grant Miracle [Restore Wound](#restore-wound)
@@ -34,16 +35,20 @@ Your [Path to the Grave](#path-to-the-grave) deals 1 additional fatigue damage.
 
 ### Restore Wound
 `Primary`
+
 The target restores 1 wound
 ### Shield of Faith
 `Primary`
+
 The target gains your `Will / 2` bonus (round up) to their defence for the rest of combat
 
 ### Minor Respite
 `Primary`
+
 Target recovers 2d4 fatigue
 
 ## Curses
 ### Path to the Grave
 `Primary`
+
 For the rest of the combat, whenever the target takes fatigue damage, add your [Will](stats.md#will) as bonus damage
