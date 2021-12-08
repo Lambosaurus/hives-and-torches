@@ -32,7 +32,7 @@ Intelligence represents a characters knowledge and wisdom into a particular subj
 Intellect is primarially used for [arcane magic](spells.md#arcane-magic) 
 
 ## Will
-Will represents the strength of grit determination and personal confidence a character possesses and is used for protecting against morale checks, contesting willpower and mind altering abilities.  Will is the primary stat for Miracle casting
+Will represents the determination and personal confidence a character possesses, and is used for protecting against morale checks, contesting willpower and mind altering abilities.  Will is the primary stat for Miracle casting
 
 Will is primarially used for [divine magic](spells.md#divine-magic)
 
