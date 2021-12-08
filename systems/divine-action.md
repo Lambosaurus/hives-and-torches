@@ -11,7 +11,7 @@ A player can use their divine actions a number of times per long rest equal to 1
 
 ## Orison
 
-An Orison is a divine action that is always ready, and can be used just like any other divine action. By default all [Zealot](classes.md#zealot)s begin with [Minor Rejuvenation](#minor-rejuvenation). More Orisons can be granted through feats, or other acts (of faith) at the DM's discretion.
+An Orison is a divine action that is always ready, and can be used just like any other divine action. By default all [Zealot](classes.md#zealot)s begin with [Minor Respite](#minor-respite). More Orisons can be granted through feats, or other acts (of faith) at the DM's discretion.
 ## Prayers
 
 All [Zealot](classes.md#zealot) characters start with one prayer slot.
