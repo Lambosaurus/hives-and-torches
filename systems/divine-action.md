@@ -20,7 +20,7 @@ Each prayer has 3 tenets, each providing the character with a divine action.
 A prayer also grants the character a passive ability.
 
 ## Prayer of Mercy
-
+`Domain: General` `Domain: Healing` `Domain: Grave`
 ### Tenets
 
 **Heal those in need**: Grant Miracle [Restore Wound](#restore-wound)
@@ -29,6 +29,7 @@ A prayer also grants the character a passive ability.
 ### Passive
 
 Your [Path to the Grave](#path-to-the-grave) deals 1 additional fatigue damage.
+
 ## Miracles
 
 ### Restore Wound
