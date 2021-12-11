@@ -114,7 +114,7 @@ When a character chooses to press on:
 > In the following turn, this character recovers `3` points of [fatigue](#fatigue) due to a [spell](spells.md). On his next turn, he stands up and takes his turn as normal. He remains on `3` wounds however.
 
 > ### Example 2
-> A character with `2` wounds takes his third `3`rd. The player chooses to [press on](#press-on), and remains standing.
+> A character with `2` wounds takes his `3`rd. The player chooses to [press on](#press-on), and remains standing.
 >
 > In a following turn, a foe deals an additional [wound](#wounds).
 > Because the character has no free wounds, one wound becomes a [mortal wound](#mortal-wounds). The character has another opportunity to [black out](#black-out), and chooses to do so.
