@@ -30,7 +30,7 @@ Once the dice are rolled, these should be checked for [criticals](#criticals). T
 If the attack score is greater than the foes [defence](stats.md#defence) score, then the attack is a hit, and the damage dealt is the difference. The DM is not required to reveal the defence score of the foe, or whether an attack did any damage.
 
 > ### Example 1:
-> A character with a long sword (`d8`) and +3 [strength](stats.md#strength) makes a melee attack against foe. He rolls `2d8 + 3` and gets a combat score of `13`. The foe has a defence of `4`, so the damage dealt is `13 - 4 = 9`. This 
+> A character with a long sword (`d8`) and +3 [strength](stats.md#strength) makes a melee attack against foe. He rolls `2d8 + 3` and gets a combat score of `13`. The foe has a defence of `4`, so the damage dealt is `13 - 4 = 9`.
 
 > ### Example 2:
 > A character with a short bow (`d6`) and +1 [finesse](stats.md#finesse) makes a ranged attack against a foe. He rolls `2d6 + 1` and gets a combat score of `3`. The foe has a defence of `5`, so the attack is inneffective and no damage is dealt.
