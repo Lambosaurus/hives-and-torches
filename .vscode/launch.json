@@ -11,6 +11,13 @@
             "program": "./tests/check_markdown.py",
             "console": "integratedTerminal",
             "args": [ "--verbosity", "1" ]
+        },
+        {
+            "name": "Stats",
+            "type": "python",
+            "request": "launch",
+            "program": "./scripts/stats.py",
+            "console": "integratedTerminal"
         }
     ]
 }
