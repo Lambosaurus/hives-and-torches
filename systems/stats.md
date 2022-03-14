@@ -140,3 +140,22 @@ When a mortal wound is healed, it may not be 'good as new'. Scar tissue or missi
 
 ## Wound Table
 [This section is a stub. Submit a Pull Request to edit it](https://github.com/Lambosaurus/hives-and-torches/edit/main/systems/stats.md)
+
+| Number | Name           |Effect                                                                                                 |
+|--------|----------------|-------------------------------------------------------------------------------------------------------|
+|      1 | Fracture       | The character is permanently [crippled](statuses.md#crippled).                                        |
+|      2 | Concussed      | The character is permanently [dazed](statuses.md#dazed)                                               |
+|      3 | Infected       | The characters is permanently [blighted](statuses.md#blighted)                                        |
+|      4 | Shattered wrist| Loose the use of one hand.                                                                            |
+|      5 | Disfigured     | [Disadvantage](rolls.md#disadvantage) on [diplomacy](skills.md#diplomacy) tests (At the DM's discretion).|
+|      6 | Weeping wounds | When [resting](#resting), make a [medicine](skills.md#medicine) test. On a failure, you may not recover the usual [fatigue](stats.md#fatigue).|
+|      7 | Missing finger | `-2` on all [attack](rolls.md#attacks) rolls.                                                         |
+|      8 | Vacant stare   | On combat initiative, make a [will](stats.md#will). On a failure, you make not make any [action](actions.md#actions) on the first round. You may still hold 1 [reaction](actions.md#reactions). |
+|      9 | Blurred vision | [Disadvantage](rolls.md#disadvantage) when [attacking](rolls.md#attacks) foes further than `5ft`. [Disadvantage](rolls.md#disadvantage) on [observation](skills.md#observation). |
+|     10 | Frostbite      | [Movement](stats.md#speed) is reduced by `10ft`. `-1` on all [attack](rolls.md#attacks) rolls.        |
+|     11 | Broken rib     | Max [fatigue](stats.md#fatigue) is reduced by `1d4` + your [level](stats.md#level)                    |
+|     12 | Bloody cough   | [Disadvantage](rolls.md#disadvantage) on [stealth](skills.md#stealth) and [strength] tests.           |
+
+
+# Resting
+[This section is a stub. Submit a Pull Request to edit it.](https://github.com/Lambosaurus/hives-and-torches/edit/main/systems/stats.md)
