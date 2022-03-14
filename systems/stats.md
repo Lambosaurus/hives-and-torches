@@ -42,7 +42,7 @@ Will is primarially used for [divine magic](spells.md#divine-magic)
 Defence represents how capable a character is at protecting themselves from foes. This might be using quick footwork or heavy armor plating.
 
 Base defence is [finesse](#finesse) plus the bonuses of any worn [armor](items.md#armor).
-- Wearing [heavy armor](items.md#heavy-armor) removes your [finesse](#finesse) bonus.
+- Wearing [heavy armor](items.md#armor) removes your [finesse](#finesse) bonus.
 - Defence may never be negative.
 
 ## Fatigue
