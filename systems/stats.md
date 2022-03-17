@@ -146,16 +146,17 @@ When a mortal wound is healed, it may not be 'good as new'. Scar tissue or missi
 |      2 | Concussed      | The character is permanently [dazed](statuses.md#dazed) and [stunned](statuses.md#stunned).|
 |      3 | Infected       | The character is permanently [blighted](statuses.md#blighted).|
 |      4 | Internal bleeding | The character is permanently [weakened](statuses.md#weakened).|
-|      5 | Ruined hand    | Loose the use of one hand.|
-|      6 | Disfigured     | [Disadvantage](rolls.md#disadvantage) on [diplomacy](skills.md#diplomacy) tests (At the DM's discretion).|
-|      7 | Weeping wounds | When [resting](#resting), make a [medicine](skills.md#medicine) test. On a failure, you may not recover the usual [fatigue](stats.md#fatigue).|
-|      8 | The stare      | On combat initiative, make a [will](stats.md#will). On a failure, you make not make any [action](actions.md#actions) on the first round. You may still hold 1 [reaction](actions.md#reactions). |
-|      9 | Blurred vision | [Disadvantage](rolls.md#disadvantage) when [attacking](rolls.md#attacks) foes further than `5ft`. [Disadvantage](rolls.md#disadvantage) on [observation](skills.md#observation). |
-|     10 | Frostbite      | [Movement](stats.md#speed) is reduced by `10ft`. `-1` on all [attack](rolls.md#attacks) rolls.|
-|     11 | Broken rib     | Max [fatigue](stats.md#fatigue) is reduced by `1d4` + your [level](stats.md#level).|
-|     12 | Bloody cough   | [Disadvantage](rolls.md#disadvantage) on [stealth](skills.md#stealth) and [strength](stats.md#strength) tests.|
-|     13 | Large burns    | Foes gain [advantage](rolls.md#advantage) when attacking in melee.|
-|     14 | The shakes     | Defence is decreased by `3`.|
+|      5 | The shakes     | The character is permanently [vulnerable](statuses.md#vulnerable)|
+|      6 | Ruined hand    | Loose the use of one hand.|
+|      7 | Disfigured     | [Disadvantage](rolls.md#disadvantage) on [diplomacy](skills.md#diplomacy) tests (At the DM's discretion).|
+|      8 | Weeping wounds | When [resting](#resting), make a [medicine](skills.md#medicine) test. On a failure, you may not recover the usual [fatigue](stats.md#fatigue).|
+|      9 | The stare      | On combat initiative, make a [will](stats.md#will). On a failure, you make not make any [action](actions.md#actions) on the first round. You may still hold 1 [reaction](actions.md#reactions). |
+|     10 | Blurred vision | [Disadvantage](rolls.md#disadvantage) when [attacking](rolls.md#attacks) foes further than `5ft`. [Disadvantage](rolls.md#disadvantage) on [observation](skills.md#observation). |
+|     12 | Frostbite      | [Movement](stats.md#speed) is reduced by `10ft`. `-1` on all [attack](rolls.md#attacks) rolls.|
+|     12 | Broken rib     | Max [fatigue](stats.md#fatigue) is reduced by `1d4` + your [level](stats.md#level).|
+|     13 | Bloody cough   | [Disadvantage](rolls.md#disadvantage) on [stealth](skills.md#stealth) and [strength](stats.md#strength) tests.|
+|     14 | Large burns    | Foes gain [advantage](rolls.md#advantage) when attacking in melee.|
+
 
 # Resting
 [This section is a stub. Submit a Pull Request to edit it.](https://github.com/Lambosaurus/hives-and-torches/edit/main/systems/stats.md)
