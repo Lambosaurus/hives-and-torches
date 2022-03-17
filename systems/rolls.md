@@ -11,10 +11,32 @@ Advantage and disadvantage can be applied to **any** roll at the DM's discretion
 Disadvantage is a `-1d4` that is added to your roll. See [advantage](#advantage) for information on stacking.
 
 # Tests
+Tests are a roll that your character makes to perform some kind of action. This may be against a foe, or an environmental challenge.
 
-Tests are a roll that your character makes against a foe to perform some kind of action. This is done by comparing one of your [attributes](stats.md#attributes) against an atribute of your foes.
+This is done by comparing one of your [attributes](stats.md#attributes) against a threshild. Your score is formed by rolling `2d6` plus your characters atribute score. [Advantage](#advantage) may also be added to these rolls.
 
-Your score is formed by rolling `2d6` plus your characters atribute score. Your foes score is `7` plus their attribute score (the average value of their attribute). If your score equals or exceeds your foes score, you succeed the test. [Advantage](#advantage) may also be added to these rolls.
+## Static tests
+
+These tests are based against a value determined by the DM.
+The usual thresholds are as follows:
+
+| Difficulty | Threshold |
+|------------|-----------|
+| Easy       |  7        |
+| Moderate   |  9        |
+| Hard       |  11       |
+| Extreme    |  13       |
+
+Players should not be required to roll for trivial tasks.
+
+> ### Example: Lifting a rock
+> A character attempts to lift a heavy rock. The DM decides that this is a moderate [strength](stats.md#strength) test (`9`). The player rolls `2d6 + 3` due to their strength, and gets an `8`. This is a failure, and they are unable to perform the task.
+
+## Tests against a foe
+
+In this case, the threshold is based on the [attribute](stats.md#attributes) of your foe.
+
+Your foes score is `7` plus their attribute score (the average roll of their attribute). If your score equals or exceeds your foes score, you succeed the test. 
 
 If the foes attribute is unspecified, ie, "A strength test", then the tested attributes are the same, ie, [strength](stats.md#strength) vs strength.
 
