@@ -38,7 +38,7 @@ A marked character has been specially marked by some effect that makes them make
  - All [attacks](rolls.md#attacks) against a marked character are made with an [advantage](rolls.md#advantage).
 
 ## Blinded
-A blinded foe has lost the ability to see their foes.
+A blinded character has lost the ability to see their foes.
 
  - All foes are considered [hidden](#hidden).
 
@@ -47,19 +47,27 @@ Note that some foes may have access to other forms of locating targets. This wil
 ## Bleeding
 [This section is a stub. Submit a Pull Request to edit it](https://github.com/Lambosaurus/hives-and-torches/edit/main/systems/statuses.md)
 
-## Blighted
-A blighted character is is being weaked by an infection, toxins, or parasites.
+## Weakened
+This character is physically weakened. Simple tests of strength and control seem difficult.
 
-When a character is blighted:
  - All [tests](rolls.md#tests) and [attacks](rolls.md#attacks) based on [strength](stats.md#strength) or [finesse](stats.md#finesse) are done with [disadvantage](rolls.md#disadvantage).
- - [fatige](stats.md#fatigue) resoration is reduced by half.
 
 ## Dazed
-By fever or headwound, this character has trouble focusing and reacting.
+By fever or headwound, this character has trouble focusing on mental tasks.
 
 When a character is dazed:
  - All [tests](rolls.md#tests) and [spells](spells.md) based on [intellect](stats.md#intellect) or [will](stats.md#will) are done with [disadvantage](rolls.md#disadvantage).
+
+## Stunned
+A stunned character's mind and senses are pushed to the limit - and cannot react normally.
+
  - They may **not** take [reactions](actions.md#reactions).
+
+## Blighted
+A blighted character is is being weaked by an infection, toxins, or parasites.
+
+ - [fatige](stats.md#fatigue) resoration is reduced by half.
+ - TODO. Something needs to be added to this.
 
 ## Crippled
 This foe has been hamstrung, or is pinned by arrows or magic. Movement is extremely difficult.
