@@ -37,14 +37,14 @@ A marked character has been specially marked by some effect that makes them make
  - A marked character may not become [hidden](#hidden).
  - All [attacks](rolls.md#attacks) against a marked character are made with an [advantage](rolls.md#advantage).
 
-This may stack with vulnerable.
+> Note: This may stack with vulnerable.
 
 ## Vulnerable
 A vulnerable character has lost the ability to properly defend themselves.
 
  - All [attacks](rolls.md#attacks) against a vulnerable character are made with an [advantage](rolls.md#advantage).
 
-This may stack with marked.
+> Note: This may stack with marked.
 
 ## Blinded
 A blinded character has lost the ability to see their foes.
