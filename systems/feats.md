@@ -90,7 +90,7 @@ You may make an [attack of opportunity](actions.md#attack-of-opportunity) on foe
 
 
 ## Overwatch
-While using a [ranged weapon](weapons.md#ranged-weapons), you may use your [action](actions.md#actions) to declare an 2ft radius area under overwatch. You may use your [reaction](actions.md#reactions) to take [attacks of opportunity](actions.md#attack-of-opportunity) on target that make an [unsafe](actions.md#unsafe-action) movement.
+While using a [ranged weapon](weapons.md#ranged-weapons), you may use your [action](actions.md#actions) to declare an `20ft` radius area under overwatch. You may use your [reaction](actions.md#reactions) to take [attacks of opportunity](actions.md#attack-of-opportunity) on target that make an [unsafe](actions.md#unsafe-action) movement.
 
 
 ## Careful shot
