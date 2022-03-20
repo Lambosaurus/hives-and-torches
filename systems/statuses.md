@@ -54,7 +54,14 @@ A blinded character has lost the ability to see their foes.
 Note that some foes may have access to other forms of locating targets. This will be mentioned in their stat sheet, and renders them functionally immune to being blinded.
 
 ## Bleeding
-[This section is a stub. Submit a Pull Request to edit it](https://github.com/Lambosaurus/hives-and-torches/edit/main/systems/statuses.md)
+Cuts on this character cause blood to run freely unless staunched.
+
+A bleeding character takes `1d4` damage before making any [primary action](actions.md#primary-action).
+
+A character may use their [primary action](actions.md#primary-action) to staunch the bleeding in combat.
+This action is [unsafe](actions.md#unsafe-action), and is successful on a simple [medicine](skills.md#medicine) [test](rolls.md#tests). Using the staunch action does not the bleeding damage.
+
+> Note: This should not be inflicted on players casually in combat - it is intended to be very dangerous.
 
 ## Weakened
 This character is physically weakened. Simple tests of strength and control seem difficult.

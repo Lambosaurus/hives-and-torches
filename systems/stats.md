@@ -160,3 +160,5 @@ When a mortal wound is healed, it may not be 'good as new'. Scar tissue or missi
 
 # Resting
 [This section is a stub. Submit a Pull Request to edit it.](https://github.com/Lambosaurus/hives-and-torches/edit/main/systems/stats.md)
+
+# Camping

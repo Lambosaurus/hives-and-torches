@@ -22,9 +22,9 @@ The usual thresholds are as follows:
 
 | Difficulty | Threshold |
 |------------|-----------|
-| Easy       |  7        |
+| Simple     |  7        |
 | Moderate   |  9        |
-| Hard       |  11       |
+| Difficult  |  11       |
 | Extreme    |  13       |
 
 Players should not be required to roll for trivial tasks.
