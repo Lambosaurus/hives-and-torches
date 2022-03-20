@@ -15,7 +15,7 @@ Trip may also be used as an alternative [attack of opportunity](actions.md#attac
 ## Bludgeoner
 This character is proficient with swinging blunt weapons. When using a [bludgeoning](weapons.md#damage-type) weapon, the character gains the following:
  - `+1` to [attacks](rolls.md#attacks) with bludgeoning weapons
- - A new [critical](rolls.md#criticals) option, *stun*: The foe is [dazed](statuses.md#dazed and) [stunned](statuses.md#stunned) until the end of their next turn.
+ - A new [critical](rolls.md#criticals) option, *stun*: The foe is [dazed](statuses.md#dazed) and [stunned](statuses.md#stunned) until the end of their next turn.
 
 
 ## Puncturer
@@ -24,24 +24,37 @@ This character is proficient with piercing weapons. When using a [piercing](weap
  - A new [critical](rolls.md#criticals) option, *pin*: The foe is [crippled](statuses.md#crippled) until the end of their next turn.
 
 
-## Slicer
+## Bladesman
 This character is proficient with bladed weapons. When using a [slashing](weapons.md#damage-type) weapon, the character gains the following:
- - `+1` to [attacks](rolls.md#attacks) with bludgeoning weapons
+ - `+1` to [attacks](rolls.md#attacks) with slashing weapons
  - A new [critical](rolls.md#criticals) option, *open vein*: The foe is [bleeding](statuses.md#bleeding).
 
 
 ## Cleaver
-This character is skilled at fighting multiple foes effectively with [slashing](weapons.md#damage-type) weapons.
+This character is skilled at fighting multiple foes effectively with bladed weapons.
 
-When killing a foe with a slashing weapon, any excess damage may be carried over to another foe within `5ft` of the dead foe.
-
-The character gains a new [critical](rolls.md#criticals) option, *cleave*: the [damage](stats.md#damage) is dealt to an additional foe within `5ft` of the target foe.
+When using a [slashing](weapons.md#damage-type) weapon, the character gains the following:
+ - When killing a foe, any excess damage may be carried over to another foe within `5ft` of the dead foe.
+ - A new [critical](rolls.md#criticals) option, *cleave*: the [damage](stats.md#damage) is dealt to an additional foe within `5ft` of the target foe.
 
 
 ## Pole-arm expert
 This character is proficent with pole weapons.
 
 When using a pole weapon with a range of `5ft`, they may extend they may extend its range to `10ft` when it is wielded [two handed](weapons.md#versatile).
+
+
+## Great weapon master:
+This character is proficcient with [great melee weapons](weapons.md#melee-weapons).
+This includes the Greatsword and Greataxe.
+
+When wielding a great weapon, this character gains the following:
+ - They may use these weapons without [disadvantage](rolls.md#disadvantage).
+ - They gain a new [critical](rolls.md#criticals) option, *hew*: This deals an immediate [wound](stats.md#wounds).
+
+
+## Retribution
+When a foe within [melee range](weapons.md#range) of this character deals a [wound](stats.md#wounds), they may take an [attack of opportunity](actions.md#attack-of-opportunity) against the foe.
 
 
 ## Shield wall
@@ -61,7 +74,22 @@ While wielding a [shield](items.md#shield), this character gains the following:
 ## Overhead strike
 During a [melee attack](rolls.md#melee-attack) you may declare an overhead strike. When this is done:
  - You gain [advantage](rolls.md#advantage) on your attack
- - You are [vulnerable](statuses.md#vulnerable) until the start of your next turn
+ - This is an [unsafe action](actions.md#unsafe-action), and will trigger a [attack of opportunity](actions.md#attack-of-opportunity) **after** the overhead strike is complete.
+
+
+## Rage
+This character flies into a rage. This state persists until they choose to leave the rage, or combat ends. This may be done once per day.
+
+While in a rage, this character:
+ - All [melee attacks](rolls.md#melee-attack) are made with an [advantage](rolls.md#advantage).
+ - They are [vulnerable](statuses.md#vulnerable)
+
+
+## Thunderous bellow
+This character shouts with a booming voice, filling his foes with fear.
+This character gains the following:
+ - An [advantage](rolls.md#advantage) on [strength](stats.md#strength) based [diplomacy](skills.md#diplomacy) tests.
+ - May use a new [secondary action](actions.md#secondary-action), *bellow*: This causes foes to re-roll their [morale](skills.md#morale) tests. Foes can only be affected by a bellow once.
 
 
 ## Flaming arrows
@@ -123,6 +151,22 @@ This character is practiced at hiding.
  - You gain an [advantage](rolls.md#advantage) when making [stealth](skills.md#stealth) tests.
 
 
+## Cloak and dagger
+When making an [attack](rolls.md#attacks) while [hidden](statuses.md#hidden), this character may make a [stealth](skills.md#stealth) against their target to stay hidden.
+
+> Note: This does not allow a target to stay hidden all the time: foes will actively search for them if not distracted.
+> The character is still subject to disadvantages for poor choice of hiding spot, as per usual stealth rules.
+
+
+## Twist the knife
+This character makes precision strikes from the shadows.
+
+When wielding a [one handed](weapons.md#1-handed) weapon, this character gains the following:
+ - A new [critical](rolls.md#criticals) option, *knife twist*: Deal `+4` damage.
+ - When making an [attack](rolls.md#attacks) while [hidden](statuses.md#hidden), they gain an additional [advantage](rolls.md#advantage).
+
+> Note: This stacks with the standard advantage for being hidden
+
 ## Lightly armored
 This character may wear [light armor](items.md#armor).
 
@@ -140,11 +184,11 @@ If the next weapon attack hits, the foe is [weakened](statuses.md#weakened) unti
 
 
 ## Executioner
-This character gains `1d4` [fatigue](stats.md#fatigue) when killing a foe. This is increased by `1d4` for each foe size above medium.
+This character is adept at landing fatal blows on his foe:
 
-This character may declare an *execution* when making an [melee-attack](rolls.md#melee-attack).
- - This attack is with an [advantage](rolls.md#advantage).
- - If the foe is not killed by the attack, they may take an [attack of opportunity](actions.md#attack-of-opportunity) with [advantage](rolls.md#advantage).
+This character gains:
+ - `1d4` [fatigue](stats.md#fatigue) when killing a foe. This is increased by `1d4` for each foe size above medium.
+ - `+1` to all [attacks](rolls.md#attacks).
 
 
 ## Cook
@@ -184,12 +228,13 @@ When making a [melee attack](actions.md#melee-attack) foe, when both the charact
 
 
 ## Evasive
-This character gains a new reaction, *take cover*: When taking [damage](stats.md#damage), you make make a [manoeuvre](actions.md#manoeuvre). If at the end of the manouvre, you are out of the attack area, you may increase your defence by `+6` while taking the damage.
+This character gains a new reaction, *take cover*: When taking [damage](stats.md#damage), you make make a [manoeuvre](actions.md#manoeuvre). If at the end of the manouvre, you are out of the attack area, you may increase your defence by `+6` for this instance.
 
 To leave the attack area, you must do one of the following:
  - Leave the [range](weapons.md#range) of a [melee attack](rolls.md#melee-attack)
  - Leave the area of an area of effect attack
  - Go [prone](statuses.md#prone) to avoid a [ranged attack](rolls.md#ranged-attack)
+
 
 # Divine feats
 

@@ -56,7 +56,7 @@ Note that some foes may have access to other forms of locating targets. This wil
 ## Bleeding
 Cuts on this character cause blood to run freely unless staunched.
 
-A bleeding character takes `1d4` damage before making any [primary action](actions.md#primary-action).
+A bleeding character takes `1d4` damage before making any [primary action](actions.md#primary-action). This damage ignores [defence](stats.md#defence).
 
 A character may use their [primary action](actions.md#primary-action) to staunch the bleeding in combat.
 This action is [unsafe](actions.md#unsafe-action), and is successful on a simple [medicine](skills.md#medicine) [test](rolls.md#tests). Using the staunch action does not the bleeding damage.
@@ -104,7 +104,9 @@ A character may be unconcious because they are asleep, under the effect of a [sp
 When a character is unconscious:
  - They may take no [actions](actions.md#actions)
  - They will fall [prone](#prone) unless explicitly prevented
- - Attacks against them are made with `2x` [advantage](rolls.md#advantage). This may **not** stack with the bonuses from [hidden](#hidden).
+ - Attacks against them are made with `2x` [advantage](rolls.md#advantage).
+
+> Note: The additional advantage does not stack with hidden.
 
 ## Dead
 This character is dead. This is final.
