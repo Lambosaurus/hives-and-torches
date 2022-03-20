@@ -183,7 +183,7 @@ This character specialises in one on one combat.
 When making a [melee attack](actions.md#melee-attack) foe, when both the character and foe do **not** have any adjacent allies or foes: the character gains an [advantage](rolls.md#advantage).
 
 
-## Take cover
+## Evasive
 This character gains a new reaction, *take cover*: When taking [damage](stats.md#damage), you make make a [manoeuvre](actions.md#manoeuvre). If at the end of the manouvre, you are out of the attack area, you may increase your defence by `+6` while taking the damage.
 
 To leave the attack area, you must do one of the following:
