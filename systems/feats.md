@@ -236,6 +236,16 @@ To leave the attack area, you must do one of the following:
  - Go [prone](statuses.md#prone) to avoid a [ranged attack](rolls.md#ranged-attack)
 
 
+## Track foe
+This character is an expert at tracking their foes.
+
+When [camping](stats.md#camping), this character may select a favoured foe. This should be a specify the species of a monster, or title of a character.
+
+When this character encounters their favoured foe, and is [hidden](statuses.md#hidden) from them: they may track them for 5 minutes. Once this is complete:
+ - The foe becomes [marked](statuses.md#marked).
+
+> Note: The title may be generic, such as "the town leader", so long as it is not ambigous who the target is.
+
 # Divine feats
 
 ## Desparate offering
