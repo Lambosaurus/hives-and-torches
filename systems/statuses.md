@@ -92,6 +92,12 @@ When a character is crippled:
  - Their movement using the [move](actions.md#move) action is halved
  - May not take the [manoeuvre](actions.md#manoeuvre) action
 
+## Supressed
+This foe is incapable of focusing on attacking, as they are are under other attacks.
+
+When a character is supressed:
+ - All [attacks](rolls.md#attacks) are made with [disadvantage](rolls.md#disadvantage)
+
 ## Unconscious 
 A character may be unconcious because they are asleep, under the effect of a [spell](spells.md), or have subcumb to their [wounds](stats.md#wounds).
 
