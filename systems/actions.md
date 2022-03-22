@@ -80,12 +80,6 @@ This allows the character to attempt to trip a foe in natural reach. Make a [fin
  - On success, the foe is [prone](statuses.md#prone).
  - On a failure this action becomes [unsafe](#unsafe-action).
 
-## Off hand attack
-`secondary`
-If the character has a [melee weapon](weapons.md#melee-weapons) in their off hand, and has already performed a [melee attack](#melee-attack), they may make a second attack. This follows the rules of a melee attack, but has the following restrictions:
- * Both weapons must be `light`
- * Both attacks will be at [disadvantage](rolls.md#disadvantage).
-
 ## Push
 `secondary`
 If the character has a free hand or shield, they may make a [strength](stats.md#strength) [test](rolls.md#tests) against the foe to push them back 5 feet.
