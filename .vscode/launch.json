@@ -23,9 +23,9 @@
             "name": "Markdown fix",
             "type": "python",
             "request": "launch",
-            "program": "./tests/fix_markdown.py",
+            "program": "./tests/check_markdown.py",
             "console": "integratedTerminal",
-            "args": [ "--verbosity", "2" ]
+            "args": [ "--verbosity", "2", "--fix" ]
         },
     ]
 }
