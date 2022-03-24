@@ -25,6 +25,7 @@ def parse_links_file(path):
 
 LINK_URIS = { k:v for k,v in parse_links_file("tests/links.txt") }
 IGNORE_URIS = [ k for k in parse_ignore_file("tests/uri.ignore") ]
+MARKDOWN_FILES = [ ]
 
 TEST_OK = 0
 TEST_WARN = 1
@@ -36,6 +37,22 @@ TEST_EMOJI = {
     TEST_ERROR: "❌ "
 }
 
+
+# Splits a uri into the path and anchor
+def split_uri(uri):
+    if uri.count('#') == 0:
+        return uri, None
+    else:
+        return uri.split('#', 1)
+
+# Rejoins a path and anchor into a uri
+def join_uri(path, anchor):
+    if anchor is None:
+        return path
+    else:
+        return path + "#" + anchor
+
+
 # Checks if the markdown URI is valid
 # Returns a tuple of (valid, comment)
 def check_link(uri, source_path):
@@ -46,14 +63,7 @@ def check_link(uri, source_path):
     if uri.startswith("https"):
         return TEST_OK, "Web url assumed valid."
     
-    # Split out the file and the anchor
-    anchor_tokens = uri.count('#')
-    if anchor_tokens == 0:
-        path, anchor = uri, None
-    elif anchor_tokens == 1:
-        path, anchor = uri.split('#')
-    else:
-        return TEST_ERROR, "Too many '#' in uri."
+    path, anchor = split_uri(uri)
 
     if path == "":
         # An unspecified file is the current file
@@ -65,7 +75,7 @@ def check_link(uri, source_path):
 
         # Otherwise it is relative to the current file
         path = os.path.normpath(os.path.join(os.path.dirname(source_path), path))
-
+        
         # It must exist
         if not os.path.exists(path):
             return TEST_ERROR, "File does not exist."
@@ -85,31 +95,40 @@ def check_link(uri, source_path):
     # Looks fine so far
     return TEST_OK, "No anchor."
 
+def relative_path(src_file, path):
+    return os.path.relpath(path, os.path.dirname(src_file))
+
 # Returns the relative uri of a path to another path
-def relative_uri(file, uri):
+def relative_uri(src_file, uri):
 
     # split out the file and the anchor
-    if uri.count('#') == 0:
-        path, anchor = uri, None
-    else:
-        path, anchor = uri.split('#')
+    path, anchor = split_uri(uri)
 
     # If the path is the file, then we can just return the anchor
-    if path == file:
-        return "#" + anchor
+    if path == src_file:
+        return join_uri("", anchor)
 
     # Otherwise we need to return the relative path
-    return os.path.relpath(path, os.path.dirname(file)) + "#" + anchor
+    return join_uri(relative_path(src_file, path) , anchor)
+
+# Check if this uri is just incorrectly rooted
+def try_relative_link(src_path, uri):
+    path, anchor = split_uri(uri)
+    for file in MARKDOWN_FILES:
+        if file.endswith(path):
+            return join_uri(relative_path(src_path, file), anchor)
+    return None
 
 # Returns the appropriate link if it exists
-def find_link(path, name, uri):
+def find_link(src_path, name, uri):
     if name in LINK_URIS:
-        candidate = relative_uri(path, LINK_URIS[name])
+        candidate = relative_uri(src_path, LINK_URIS[name])
     else:
-        candidate = relative_uri(path, uri)
-    code, comment = check_link(candidate, path)
-    if code == TEST_OK:
-        return candidate
+        candidate = try_relative_link(src_path, uri)
+    if candidate is not None:
+        code, comment = check_link(candidate, src_path)
+        if code == TEST_OK:
+            return candidate
     return None
 
 # Iterates over all anchors in a markdown file
@@ -198,7 +217,9 @@ def all_markdown_files(directory):
 def run_all_checks(directory, verbosity, fix):
     checked = 0
     passed = 0
-    for path in all_markdown_files(directory):
+    MARKDOWN_FILES.clear()
+    MARKDOWN_FILES.extend(all_markdown_files(directory))
+    for path in MARKDOWN_FILES:
         if check_links(path, verbosity, fix) == 0:
             passed += 1
         checked += 1

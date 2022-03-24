@@ -25,7 +25,7 @@
             "request": "launch",
             "program": "./tests/check_markdown.py",
             "console": "integratedTerminal",
-            "args": [ "--verbosity", "2", "--fix" ]
+            "args": [ "--verbosity", "1", "--fix" ]
         },
     ]
 }
