@@ -19,20 +19,20 @@ The maximum effective range on this weapon.
 
 |Name           |Description                                                  |Weight |Price  |Dice   |Damage Type  |Traits                         |Range  |
 |---------------|-------------------------------------------------------------|-------|-------|-------|-------------|-------------------------------|-------|
-|Dagger         |A short bladed weapon                                        |1      |15     |d4     |Slashing     |1-handed                       |5ft    |
-|Staff          |A simple wooden staff                                        |2      |10     |d4     |Bludgeoning  |1-handed, versatile            |5ft    |
-|Sword          |A sword                                                      |2      |25     |d6     |Slashing     |1-handed                       |5ft    |
-|War-hammer     |A wooden shafted hammer with a spike on one side             |2      |25     |d6     |Bludgeoning  |1-handed                       |5ft    |
-|Spear          |A long wooden shaft with a metal point on the end            |2      |25     |d6     |Piercing     |1-handed, versatile, throwing  |5ft    |
-|War-axe        |An axe with a wide head                                      |2      |25     |d6     |Chopping     |1-handed                       |5ft    |
-|Greataxe       |A large axe                                                  |5      |40     |d10    |Chopping     |2-handed, advanced             |5ft    |
-|Greatsword     |A large sword                                                |5      |40     |d10    |Slashing     |2-handed, advanced             |5ft    |
+|Dagger         |A short bladed weapon                                        |1      |15     |d4     |Slashing     |1-handed, throwing             |5ft    |
+|Staff          |A simple wooden staff                                        |2      |10     |d4/d6  |Bludgeoning  |versatile                      |5ft    |
+|Sword          |A versatile arming sword                                     |2      |25     |d6/d8  |Slashing     |versatile                      |5ft    |
+|Spear          |A long wooden shaft with a metal point on the end            |2      |25     |d6/d8  |Piercing     |versatile, throwing            |5ft    |
+|War-hammer     |A wooden shafted hammer with a spike on one side             |2      |25     |d6/d8  |Bludgeoning  |versatile                      |5ft    |
+|War-axe        |An axe with a broad head                                     |2      |25     |d6/d8  |Chopping     |versatile                      |5ft    |
+|Great-axe      |A large axe                                                  |5      |50     |d10    |Chopping     |advanced                       |5ft    |
+|Great-sword    |A large sword                                                |5      |50     |d10    |Slashing     |2-handed, advanced             |5ft    |
 
 # Ranged weapons
 
 |Name           |Description                                                  |Weight |Price  |Dice   |Damage Type  |Traits                         |Range  |
 |---------------|-------------------------------------------------------------|-------|-------|-------|-------------|-------------------------------|-------|
-|Short bow      |A short bow                                                  |2      |25     |d6     |Piercing     |2-handed                       |120ft  |
+|Short-bow      |A short bow                                                  |2      |25     |d6     |Piercing     |2-handed                       |120ft  |
 |Crossbow       |A crossbow                                                   |2      |25     |d8     |Piercing     |2-handed, loading              |120ft  |
 
 # Weapon Traits
@@ -44,7 +44,7 @@ This weapon can be wielded with only one hand
 This weapon requires two hands to wield
 
 ## Versatile
-This weapon can be wielded with a second hand to increase its dice
+This weapon can be wielded with one or two hands. When wielded with two hands - its weapon dice is increased.
 
 ## Throwing
 This weapon can be thrown without [disadvantage](rolls.md#disadvantage). When thrown, [Range](#range) is 20ft.
