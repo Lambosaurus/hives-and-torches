@@ -6,20 +6,26 @@ These feats are available with no restriction.
 ---
 ## Bludgeoner
 This character is proficient with swinging blunt weapons. When using a [bludgeoning](..\weapons.md#damage-type) weapon, the character gains the following:
- - `+1` to [attacks](..\rolls.md#attacks) with bludgeoning weapons
- - A new [critical](..\rolls.md#criticals) option, *stun*: The foe is [dazed](..\statuses.md#dazed) and [stunned](..\statuses.md#stunned) until the end of their next turn.
+ - `+1` to [attacks](..\rolls.md#attacks) with bludgeoning weapons.
+ - A new [critical](..\rolls.md#criticals) option, *stun*: The foe is [dazed](..\statuses.md#dazed) and [stunned](..\statuses.md#stunned) until the end of your next turn.
 
 ---
 ## Puncturer
 This character is proficient with piercing weapons. When using a [piercing](..\weapons.md#damage-type) weapon, the character gains the following:
- - `+1` to [attacks](..\rolls.md#attacks) with piercing weapons
- - A new [critical](..\rolls.md#criticals) option, *pin*: The foe is [crippled](..\statuses.md#crippled) until the end of their next turn.
+ - `+1` to [attacks](..\rolls.md#attacks) with piercing weapons.
+ - A new [critical](..\rolls.md#criticals) option, *pin*: The foe is [crippled](..\statuses.md#crippled) until the end of your next turn.
 
 ---
 ## Bladesman
 This character is proficient with bladed weapons. When using a [slashing](..\weapons.md#damage-type) weapon, the character gains the following:
- - `+1` to [attacks](..\rolls.md#attacks) with slashing weapons
- - A new [critical](..\rolls.md#criticals) option, *open vein*: The foe is [bleeding](..\statuses.md#bleeding).
+ - `+1` to [attacks](..\rolls.md#attacks) with slashing weapons.
+ - A new [critical](..\rolls.md#criticals) option, *open vein*: The foe is [bleeding](..\statuses.md#bleeding) until the end of your next turn.
+
+---
+## Barrager
+This character is proficient with firing ranged weapons rapidly. When using a [ranged weapon](../weapons.md#ranged-weapons) this character gains:
+ - `+1` to [attacks](../rolls.md#attacks) with ranged weapons.
+ - A new [critical](../rolls.md#criticals) option, *supppress*: The foe is [suppressed](../statuses.md#supressed) until the end of your next turn.
 
 ---
 ## Great weapon master
@@ -50,9 +56,10 @@ While wielding a [dagger](../weapons.md#weapons) in a second hand, this characte
 ## Cleaver
 This character is skilled at fighting multiple foes effectively with bladed weapons.
 
-When using a [slashing](..\weapons.md#damage-type) weapon, the character gains the following:
+When using a [slashing](../weapons.md#damage-type) weapon, the character gains the following:
  - When killing a foe, any excess damage may be carried over to another foe within `5ft` of the dead foe.
- - A new [critical](..\rolls.md#criticals) option, *cleave*: the [damage](..\stats.md#damage) is dealt to an additional foe within `5ft` of the target foe.
+ - A new [critical](../rolls.md#criticals) option, *cleave*: the [damage](../stats.md#damage) is dealt to an additional foe within `5ft` of the target foe.
 
 > Note: Damage may not be carried over from *cleaved* foes
 
+--- 

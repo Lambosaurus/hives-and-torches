@@ -2,25 +2,6 @@
 
 The following status effects are infliced on your character by various actions or events. These remain on the character until explicitly cleared. This will be described either in the status, or in the rule that applied the status.
 
-## Grappled
-
-A grappled character has been grabbed by a foe or magical effect. They cannot move without first escaping, and it is difficult to  
-
- - A grappled character may not move using their [move](actions.md#move) or [manoeuvre](actions.md#manoeuvre) actions.
- - [Attacks](rolls.md#attacks) made against a grappled target are made with an [advantage](rolls.md#advantage).
-
-The grappled character may use its action to attempt to escape the grapple using a strength test against the grappler.
-
-
-## Restrained
-Restrained is an advanced form of [grappled](#grappled). You may not be both grapped and restrained.
-
- - A restrained character may not move using their [move](actions.md#move) or [manoeuvre](actions.md#manoeuvre) actions.
- - The restrained character may not use any actions that require their hands, such as [attacking](rolls.md#attacks), or casting [spells](spells.md) with a [somatic component](spells.md#somatic).
- - [Attacks](rolls.md#attacks) made against a restrained target are made with a `2x` [advantage](rolls.md#advantage).
-
-The restrained character may use its action to attempt to escape being restrained using a strength test against the restrainer.
-
 ## Prone
 A prone character is lying on the ground. Their ability to move is reduced, and it is difficult to use weapons. Your character may willingly become prone by using their [manoeuvre](actions.md#manoeuvre) action to lie down.
 
@@ -45,6 +26,27 @@ A vulnerable character has lost the ability to properly defend themselves.
  - All [attacks](rolls.md#attacks) against a vulnerable character are made with an [advantage](rolls.md#advantage).
 
 > Note: This may stack with marked.
+
+## Crippled
+This foe has been hamstrung, or is pinned by arrows or magic. Movement is extremely difficult.
+
+When a character is crippled:
+ - Their movement using the [move](actions.md#move) action is halved
+ - May not take the [manoeuvre](actions.md#manoeuvre) action
+
+## Trapped
+This foe is unable to move due to being entangled, stuck in a trap, or magically affixed.
+
+When a character is trapped:
+ - They many not take the [manoeuvre](actions.md#manoeuvre) or [move](actions.md#move) action.
+ - All [attacks](rolls.md#attacks) against a trapped character are made with an [advantage](rolls.md#advantage).
+
+## Restrained
+Restrained is an advanced form of [trapped](#trapped). You may not be both trapped and restrained.
+
+ - A restrained character may not move using their [move](actions.md#move) or [manoeuvre](actions.md#manoeuvre) actions.
+ - The restrained character may not use any actions that require their hands, such as [attacking](rolls.md#attacks), or casting [spells](spells.md) with a [somatic component](spells.md#somatic).
+ - [Attacks](rolls.md#attacks) made against a restrained target are made with a `2x` [advantage](rolls.md#advantage).
 
 ## Blinded
 A blinded character has lost the ability to see their foes.
@@ -84,13 +86,6 @@ A blighted character is is being weaked by an infection, toxins, or parasites.
 
  - [fatige](stats.md#fatigue) resoration is reduced by half.
  - TODO. Something needs to be added to this.
-
-## Crippled
-This foe has been hamstrung, or is pinned by arrows or magic. Movement is extremely difficult.
-
-When a character is crippled:
- - Their movement using the [move](actions.md#move) action is halved
- - May not take the [manoeuvre](actions.md#manoeuvre) action
 
 ## Supressed
 This foe is incapable of focusing on attacking, as they are are under other attacks.
