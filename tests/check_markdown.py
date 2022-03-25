@@ -62,6 +62,9 @@ def check_link(uri, source_path):
 
     if uri.startswith("https"):
         return TEST_OK, "Web url assumed valid."
+
+    if "\\" in uri:
+        return TEST_ERROR, "Backslash in URI."
     
     path, anchor = split_uri(uri)
 
@@ -109,7 +112,7 @@ def relative_uri(src_file, uri):
         return join_uri("", anchor)
 
     # Otherwise we need to return the relative path
-    return join_uri(relative_path(src_file, path) , anchor)
+    return join_uri(relative_path(src_file, path).replace("\\", "/") , anchor)
 
 # Check if this uri is just incorrectly rooted
 def try_relative_link(src_path, uri):
