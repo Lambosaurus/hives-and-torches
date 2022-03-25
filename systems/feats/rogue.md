@@ -5,8 +5,8 @@ These feats are part of the rogue archetype.
 ---
 ## Skulker
 
-This character is practiced at hiding.
- - You gain an [advantage](../rolls.md#advantage) when making [stealth](../skills.md#stealth) tests.
+This character is practiced at hiding in the shadows.
+ - You gain an [advantage](../rolls.md#advantage) when making [stealth](../skills.md#stealth) tests when in darkness.
 
 When wielding a [one handed](../weapons.md#1-handed) weapon, this character gains the following:
   - A new [critical](rolls.md#criticals) option, *knife twist*: Deal `+4` damage.
@@ -41,4 +41,4 @@ When this character encounters their favoured foe, and is [hidden](../statuses.m
 
 > Note: The title may be generic, such as "the town leader", as long as it is not ambigous who the target is.
 
---
+---
