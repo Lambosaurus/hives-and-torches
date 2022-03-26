@@ -2,25 +2,6 @@
 
 The following status effects are infliced on your character by various actions or events. These remain on the character until explicitly cleared. This will be described either in the status, or in the rule that applied the status.
 
-## Grappled
-
-A grappled character has been grabbed by a foe or magical effect. They cannot move without first escaping, and it is difficult to  
-
- - A grappled character may not move using their [move](actions.md#move) or [manoeuvre](actions.md#manoeuvre) actions.
- - [Attacks](rolls.md#attacks) made against a grappled target are made with an [advantage](rolls.md#advantage).
-
-The grappled character may use its action to attempt to escape the grapple using a strength test against the grappler.
-
-
-## Restrained
-Restrained is an advanced form of [grappled](#grappled). You may not be both grapped and restrained.
-
- - A restrained character may not move using their [move](actions.md#move) or [manoeuvre](actions.md#manoeuvre) actions.
- - The restrained character may not use any actions that require their hands, such as [attacking](rolls.md#attacks), or casting [spells](spells.md) with a [somatic component](spells.md#somatic).
- - [Attacks](rolls.md#attacks) made against a restrained target are made with a `2x` [advantage](rolls.md#advantage).
-
-The restrained character may use its action to attempt to escape being restrained using a strength test against the restrainer.
-
 ## Prone
 A prone character is lying on the ground. Their ability to move is reduced, and it is difficult to use weapons. Your character may willingly become prone by using their [manoeuvre](actions.md#manoeuvre) action to lie down.
 
@@ -37,6 +18,36 @@ A marked character has been specially marked by some effect that makes them make
  - A marked character may not become [hidden](#hidden).
  - All [attacks](rolls.md#attacks) against a marked character are made with an [advantage](rolls.md#advantage).
 
+> Note: This may stack with vulnerable.
+
+## Vulnerable
+A vulnerable character has lost the ability to properly defend themselves.
+
+ - All [attacks](rolls.md#attacks) against a vulnerable character are made with an [advantage](rolls.md#advantage).
+
+> Note: This may stack with marked.
+
+## Crippled
+This foe has been hamstrung, or is pinned by arrows or magic. Movement is extremely difficult.
+
+When a character is crippled:
+ - Their movement using the [move](actions.md#move) action is halved
+ - May not take the [manoeuvre](actions.md#manoeuvre) action
+
+## Trapped
+This foe is unable to move due to being entangled, stuck in a trap, or magically affixed.
+
+When a character is trapped:
+ - They many not take the [manoeuvre](actions.md#manoeuvre) or [move](actions.md#move) action.
+ - All [attacks](rolls.md#attacks) against a trapped character are made with an [advantage](rolls.md#advantage).
+
+## Restrained
+Restrained is an advanced form of [trapped](#trapped). You may not be both trapped and restrained.
+
+ - A restrained character may not move using their [move](actions.md#move) or [manoeuvre](actions.md#manoeuvre) actions.
+ - The restrained character may not use any actions that require their hands, such as [attacking](rolls.md#attacks), or casting [spells](spells.md) with a [somatic component](spells.md#somatic).
+ - [Attacks](rolls.md#attacks) made against a restrained target are made with a `2x` [advantage](rolls.md#advantage).
+
 ## Blinded
 A blinded character has lost the ability to see their foes.
 
@@ -45,7 +56,14 @@ A blinded character has lost the ability to see their foes.
 Note that some foes may have access to other forms of locating targets. This will be mentioned in their stat sheet, and renders them functionally immune to being blinded.
 
 ## Bleeding
-[This section is a stub. Submit a Pull Request to edit it](https://github.com/Lambosaurus/hives-and-torches/edit/main/systems/statuses.md)
+Cuts on this character cause blood to run freely unless staunched.
+
+A bleeding character takes `1d4` damage before making any [primary action](actions.md#primary-action). This damage ignores [defence](stats.md#defence).
+
+A character may use their [primary action](actions.md#primary-action) to staunch the bleeding in combat.
+This action is [unsafe](actions.md#unsafe-action), and is successful on a simple [medicine](skills.md#medicine) [test](rolls.md#tests). Using the staunch action does not the bleeding damage.
+
+> Note: This should not be inflicted on players casually in combat - it is intended to be very dangerous.
 
 ## Weakened
 This character is physically weakened. Simple tests of strength and control seem difficult.
@@ -69,12 +87,11 @@ A blighted character is is being weaked by an infection, toxins, or parasites.
  - [fatige](stats.md#fatigue) resoration is reduced by half.
  - TODO. Something needs to be added to this.
 
-## Crippled
-This foe has been hamstrung, or is pinned by arrows or magic. Movement is extremely difficult.
+## Supressed
+This foe is incapable of focusing on attacking, as they are are under other attacks.
 
-When a character is crippled:
- - Their movement using the [move](actions.md#move) action is halved
- - May not take the [manoeuvre](actions.md#manoeuvre) action
+When a character is supressed:
+ - All [attacks](rolls.md#attacks) are made with [disadvantage](rolls.md#disadvantage)
 
 ## Unconscious 
 A character may be unconcious because they are asleep, under the effect of a [spell](spells.md), or have subcumb to their [wounds](stats.md#wounds).
@@ -82,7 +99,9 @@ A character may be unconcious because they are asleep, under the effect of a [sp
 When a character is unconscious:
  - They may take no [actions](actions.md#actions)
  - They will fall [prone](#prone) unless explicitly prevented
- - Attacks against them are made with `2x` [advantage](rolls.md#advantage). This may **not** stack with the bonuses from [hidden](#hidden).
+ - Attacks against them are made with `2x` [advantage](rolls.md#advantage).
+
+> Note: The additional advantage does not stack with hidden.
 
 ## Dead
 This character is dead. This is final.
@@ -119,7 +138,7 @@ A character is considered hidden if they are unable to be detected by a foe. Thi
  - The foes senses are unable to detect the character.
  - The foe is unaware that the characters may be nearby.
 
-Some [feats](feats.md#feats) and [spells](spells.md) will confer hidden to a character, but it is up to the DM's discretion whether the foes other senses can bypass this.
+Some [feats](feats.md) and [spells](spells.md) will confer hidden to a character, but it is up to the DM's discretion whether the foes other senses can bypass this.
 
 A foe is not able to properly defend against a hidden character, and cannot normally [attack](rolls.md#attacks) them.
 
@@ -139,7 +158,7 @@ A character is considered shooting into melee when making a [ranged attack](roll
 A character is considered flanking if there is another friendly character who meets the following criteria:
  1) Is capable of making a [melee attack](rolls.md#melee-attack) against the foe. This includes:
     - Has a [melee weapon](weapons.md#melee-weapons) in their hands
-    - Is within [weapon reach](weapons.md#weapon-reach)
+    - Is within [weapon reach](weapons.md#range)
     - Is willing to make an attack
  2) Is threatening a different face of the enemy as the first character.
     - Corners are only considered a different face if they are **not** adjacent to the threatened face.

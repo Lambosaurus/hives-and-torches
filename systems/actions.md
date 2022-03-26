@@ -64,13 +64,13 @@ A character may use a special item from their inventory. A typical example of th
 
 ## Grapple
 `primary`
-A character may try to grapple a foe within natural reach. To grapple a foe, you must have at least one completely free hand. You must roll a [strength](stats.md#strength) [test](rolls.md#tests) against their [finesse](stats.md#finesse). On success, the foe is [grappled](statuses.md#grappled), and may not move. When a foe is grappled, you may use your [movement](#move) to move up to half your [speed](stats.md#speed), taking the foe with you.
+A character may try to grapple a foe within natural reach. To grapple a foe, you must have at least one completely free hand. You must roll a [strength](stats.md#strength) [test](rolls.md#tests) against their [finesse](stats.md#finesse). On success, the foe is [trapped](statuses.md#trapped), and may not move. When a foe is trapped by a grapple, you may use your [movement](#move) to move up to half your [speed](stats.md#speed), taking the foe with you.
 
 The grappled foe may use its [primary action](#primary-action) to make a strength test against you to escape.
 
 ## Restrain
 `primary`
-A character may try to restrain a foe within natural reach that is already [grappled](statuses.md#grappled). To restrain a foe, you must have two completely free hands. You must roll a [strength](stats.md#strength) [test](rolls.md#tests) against the foe. On success, the foe is [restrained](statuses.md#restrained), and may not use any actions that require hands.
+A character may try to restrain a foe within natural reach that is already [trapped](statuses.md#trapped). To restrain a foe, you must have two completely free hands. You must roll a [strength](stats.md#strength) [test](rolls.md#tests) against the foe. On success, the foe is [restrained](statuses.md#restrained), and may not use any actions that require hands.
 
 The restrained foe may use its [primary action](#primary-action) to make a strength test against you to escape.
 
@@ -79,12 +79,6 @@ The restrained foe may use its [primary action](#primary-action) to make a stren
 This allows the character to attempt to trip a foe in natural reach. Make a [finesse](stats.md#finesse) [test](rolls.md#tests) against the foe.
  - On success, the foe is [prone](statuses.md#prone).
  - On a failure this action becomes [unsafe](#unsafe-action).
-
-## Off hand attack
-`secondary`
-If the character has a [melee weapon](weapons.md#melee-weapons) in their off hand, and has already performed a [melee attack](#melee-attack), they may make a second attack. This follows the rules of a melee attack, but has the following restrictions:
- * Both weapons must be `light`
- * Both attacks will be at [disadvantage](rolls.md#disadvantage).
 
 ## Push
 `secondary`
