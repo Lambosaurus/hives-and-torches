@@ -13,14 +13,14 @@ While in a rage:
 
 ---
 ## Animal reflex
-*Requires:  [rage](#Rage)*
+*Requires:  [rage](#rage)*
 
 While in a rage, this character reacts with frightening speed and precision.
 This character has unlimited [reactions](../actions.md#reactions) during rage.
 
 ---
 ## Resiliance
-*Requires: [rage](#Rage)*
+*Requires: [rage](#rage)*
 
 When entering rage, this character recovers `2d4` [fatigue](../stats.md#fatigue)
 
@@ -29,11 +29,11 @@ Once per rage this character may ignore a recieved [wound](../stats.md#wounds).
 ---
 ## Thunderous bellow
 
-*Requires: [rage](#Rage)*
+*Requires: [rage](#rage)*
 
 This character shouts with a booming voice, filling his foes with fear.
 
 This character gains the following:
- - An [advantage](rolls.md#advantage) on [strength](stats.md#strength) based [diplomacy](skills.md#diplomacy) tests.
- - May use a new [secondary action](actions.md#secondary-action), *bellow*: This causes foes to re-roll their [morale](skills.md#morale) tests. Foes can only be affected by a bellow once.
+ - An [advantage](../rolls.md#advantage) on [strength](../stats.md#strength) based [diplomacy](../skills.md#diplomacy) tests.
+ - May use a new [secondary action](../actions.md#secondary-action), *bellow*: This causes foes to re-roll their [morale](../skills.md#morale) tests. Foes can only be affected by a bellow once.
 ---

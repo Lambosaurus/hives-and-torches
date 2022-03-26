@@ -138,7 +138,7 @@ A character is considered hidden if they are unable to be detected by a foe. Thi
  - The foes senses are unable to detect the character.
  - The foe is unaware that the characters may be nearby.
 
-Some [feats](feats.md#feats) and [spells](spells.md) will confer hidden to a character, but it is up to the DM's discretion whether the foes other senses can bypass this.
+Some [feats](feats.md) and [spells](spells.md) will confer hidden to a character, but it is up to the DM's discretion whether the foes other senses can bypass this.
 
 A foe is not able to properly defend against a hidden character, and cannot normally [attack](rolls.md#attacks) them.
 
@@ -158,7 +158,7 @@ A character is considered shooting into melee when making a [ranged attack](roll
 A character is considered flanking if there is another friendly character who meets the following criteria:
  1) Is capable of making a [melee attack](rolls.md#melee-attack) against the foe. This includes:
     - Has a [melee weapon](weapons.md#melee-weapons) in their hands
-    - Is within [weapon reach](weapons.md#weapon-reach)
+    - Is within [weapon reach](weapons.md#range)
     - Is willing to make an attack
  2) Is threatening a different face of the enemy as the first character.
     - Corners are only considered a different face if they are **not** adjacent to the threatened face.

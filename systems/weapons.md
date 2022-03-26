@@ -37,10 +37,10 @@ The maximum effective range on this weapon.
 
 # Weapon Traits
 
-## 1-handed
+## 1 handed
 This weapon can be wielded with only one hand
 
-## 2-handed
+## 2 handed
 This weapon requires two hands to wield
 
 ## Versatile

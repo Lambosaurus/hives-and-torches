@@ -1,15 +1,8 @@
 // This ignore file excludes some URI's from tests.
 // These should be fixed or stubbed as soon as possible.
 
-// Combat rules not yet created
-combat.md#damage-types
-weapons.md#weapon-reach
-weapons.md#weapon-range
 
-// Feats to be created or deleted
-feats.md#feats
-feats.md#twist-the-knife
-feats.md#stunning-blow
+combat.md#damage-types
 
 // These need to be replaced with the new spells.
 spells.md

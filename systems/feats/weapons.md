@@ -5,21 +5,21 @@ These feats are available with no restriction.
 
 ---
 ## Bludgeoner
-This character is proficient with swinging blunt weapons. When using a [bludgeoning](..\weapons.md#damage-type) weapon, the character gains the following:
- - `+1` to [attacks](..\rolls.md#attacks) with bludgeoning weapons.
- - A new [critical](..\rolls.md#criticals) option, *stun*: The foe is [dazed](..\statuses.md#dazed) and [stunned](..\statuses.md#stunned) until the end of your next turn.
+This character is proficient with swinging blunt weapons. When using a [bludgeoning](../weapons.md#damage-type) weapon, the character gains the following:
+ - `+1` to [attacks](../rolls.md#attacks) with bludgeoning weapons.
+ - A new [critical](../rolls.md#criticals) option, *stunning blow*: The foe is [dazed](../statuses.md#dazed) and [stunned](../statuses.md#stunned) until the end of your next turn.
 
 ---
 ## Puncturer
-This character is proficient with piercing weapons. When using a [piercing](..\weapons.md#damage-type) weapon, the character gains the following:
- - `+1` to [attacks](..\rolls.md#attacks) with piercing weapons.
- - A new [critical](..\rolls.md#criticals) option, *pin*: The foe is [crippled](..\statuses.md#crippled) until the end of your next turn.
+This character is proficient with piercing weapons. When using a [piercing](../weapons.md#damage-type) weapon, the character gains the following:
+ - `+1` to [attacks](../rolls.md#attacks) with piercing weapons.
+ - A new [critical](../rolls.md#criticals) option, *pin*: The foe is [crippled](../statuses.md#crippled) until the end of your next turn.
 
 ---
 ## Bladesman
-This character is proficient with bladed weapons. When using a [slashing](..\weapons.md#damage-type) weapon, the character gains the following:
- - `+1` to [attacks](..\rolls.md#attacks) with slashing weapons.
- - A new [critical](..\rolls.md#criticals) option, *open vein*: The foe is [bleeding](..\statuses.md#bleeding) until the end of your next turn.
+This character is proficient with bladed weapons. When using a [slashing](../weapons.md#damage-type) weapon, the character gains the following:
+ - `+1` to [attacks](../rolls.md#attacks) with slashing weapons.
+ - A new [critical](../rolls.md#criticals) option, *open vein*: The foe is [bleeding](../statuses.md#bleeding) until the end of your next turn.
 
 ---
 ## Barrager
@@ -29,18 +29,18 @@ This character is proficient with firing ranged weapons rapidly. When using a [r
 
 ---
 ## Great weapon master
-This character is proficient with [great melee weapons](..\weapons.md#melee-weapons).
+This character is proficient with [great melee weapons](../weapons.md#melee-weapons).
 This includes the Greatsword and Greataxe.
 
 When wielding a great weapon, this character gains the following:
- - They may use these weapons without [disadvantage](..\rolls.md#disadvantage).
- - They gain a new [critical](..\rolls.md#criticals) option, *hew*: This deals an immediate [wound](..\stats.md#wounds).
+ - They may use these weapons without [disadvantage](../rolls.md#disadvantage).
+ - They gain a new [critical](../rolls.md#criticals) option, *hew*: This deals an immediate [wound](../stats.md#wounds).
 
 ---
 ## Shield mastry
-While wielding a [shield](items.md#shield), this character gains the following:
- - `+1` [defence](..\stats.md#defence)
- - A new reaction, *sacrifice shield*: When taking [damage](..\stats.md#damage), you may discard you shield to temporarially increase your [defence](..\stats.md#defence) by `12`. The shield is permenantly destroyed.
+While wielding a [shield](../items.md#shield), this character gains the following:
+ - `+1` [defence](../stats.md#defence)
+ - A new reaction, *sacrifice shield*: When taking [damage](../stats.md#damage), you may discard you shield to temporarially increase your [defence](../stats.md#defence) by `12`. The shield is permenantly destroyed.
 
 ---
 ## Parrying dagger

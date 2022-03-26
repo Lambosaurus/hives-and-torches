@@ -1,6 +1,6 @@
 
 # Diplomacy
-[This section is a stub. Submit a Pull Request to edit it.](https://github.com/Lambosaurus/hives-and-torches/edit/main/systems/diplomacy.md)
+[This section is a stub. Submit a Pull Request to edit it.](https://github.com/Lambosaurus/hives-and-torches/edit/main/systems/skills.md)
 
 # Medicine
 [This section is a stub. Submit a Pull Request to edit it.](https://github.com/Lambosaurus/hives-and-torches/edit/main/systems/skills.md)
@@ -24,3 +24,5 @@ It is ultimately up to the DM as to the number of disadvantages applied to these
 
 > Note: The DM may choose to deny the player a stealth roll entirely if enough factors are against them. 
 
+# Morale
+[This section is a stub. Submit a Pull Request to edit it.](https://github.com/Lambosaurus/hives-and-torches/edit/main/systems/skills.md)

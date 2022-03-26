@@ -22,7 +22,7 @@ The expected marketable value of this item, given normal circumstances.
 [Weapons are detailed further their own section](weapons.md).
 
 # Armor
-Armor can be worn by characters to improve their [defence](stats.md#defence). These cannot be worn without the prerequisite [feat](feats.md#feats) or [class](classes.md). Only one set of armor can be work at once.
+Armor can be worn by characters to improve their [defence](stats.md#defence). These cannot be worn without the prerequisite [feat](feats.md) or [class](classes.md). Only one set of armor can be work at once.
 
 |Name           |Description                                                             |Weight |Price  |Defence|Notes|
 |---------------|------------------------------------------------------------------------|-------|-------|-------|-----|
@@ -31,7 +31,8 @@ Armor can be worn by characters to improve their [defence](stats.md#defence). Th
 |Heavy armor    |Chainmail, segmented plates, and a gambeson undergarment.               |25     |250    |5      |Inteferes with arcane and divine magic. `2x` [disadvantage](rolls.md#disadvantage) on stealth.|
 |Plate armor    |Steel interlocking plate armor.                                         |25     |2000   |6      |Inteferes with arcane and divine magic. `2x` [disadvantage](rolls.md#disadvantage) on stealth. This must be fitted to the wearer.|
 
-
+# Shield
+[This section is a stub. Submit a Pull Request to edit it.](https://github.com/Lambosaurus/hives-and-torches/edit/main/systems/items.md)
 
 # Equipment
 

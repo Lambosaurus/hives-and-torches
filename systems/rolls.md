@@ -59,11 +59,11 @@ If the attack score is greater than the foes [defence](stats.md#defence) score, 
 
 ## Melee attack
 
-A melee attack is an [attack](#attacks) with a [melee weapon](weapons.md#melee-weapons). The target foe must within your [weapon reach](weapons.md#weapon-reach). Weapon reach is `5ft` unless otherwise stated. The attack score of a melee attack is `2x` your weapons dice plus your [strength](stats.md#strength).
+A melee attack is an [attack](#attacks) with a [melee weapon](weapons.md#melee-weapons). The target foe must within your [weapon reach](weapons.md#range). Weapon reach is `5ft` unless otherwise stated. The attack score of a melee attack is `2x` your weapons dice plus your [strength](stats.md#strength).
 
 ## Ranged attack
 
-A ranged attack is an [attack](#attacks) made with a [ranged weapon](weapons.md#ranged-weapons). The target foe must be within your [weapon range](weapons.md#weapon-range). The attack score of a ranged attack is `2x` your weapons dice plus your [finesse](stats.md#finesse). A ranged attack is [unsafe](actions.md#unsafe-action).
+A ranged attack is an [attack](#attacks) made with a [ranged weapon](weapons.md#ranged-weapons). The target foe must be within your [weapon range](weapons.md#range). The attack score of a ranged attack is `2x` your weapons dice plus your [finesse](stats.md#finesse). A ranged attack is [unsafe](actions.md#unsafe-action).
 
 ## Unarmed attack
 
@@ -100,13 +100,13 @@ This is a [critical](#criticals) effect that all characters have access to by de
 >
 > This means he rolls `2d8 + 2` for his attack score. His die are `2,2`. Because there are two `2`'s, he has rolled a critical.
 >
-> Because his total damage score is `6`, and his foes [defence](stats.md#defence) is `7`, this is not a hit. Becase his [stunning blow](feats.md#stunning-blow) feat requires a hit, he may **not** use it. Instead, he will [pierce defence](#pierce-defence), and deal `6` damage.
+> Because his total damage score is `6`, and his foes [defence](stats.md#defence) is `7`, this is not a hit. Becase his [stunning blow](feats/weapons.md#bludgeoner) crital option requires a hit, he may **not** use it. Instead, he will [pierce defence](#pierce-defence), and deal `6` damage.
 
 > ### Example 3:
 >
 > A character performs an attack with a dagger (`d4`) and a [finesse](stats.md#finesse) of `+3`. Because he is [hidden](statuses.md#hidden) and [flanking](statuses.md#flanking) he has `2x` [advantage](#advantage).
 >
-> This means he rolls `4d4 + 3` for his attack score. His die are `1,1,1,3`. This is a double critical, and he may have two critical effects. He chooses to both [pierce defence](#pierce-defence) and [twist the knife](feats.md#twist-the-knife) to inflict an additional `4` damage.
+> This means he rolls `4d4 + 3` for his attack score. His die are `1,1,1,3`. This is a double critical, and he may have two critical effects. He chooses to both [pierce defence](#pierce-defence) and [twist the knife](feats/rogue.md#skulker) to inflict an additional `4` damage.
 >
 > `13` damage is dealt in total.
 
