@@ -10,5 +10,7 @@ The following process can be used as a template for monster generation.
 
 ### 1. Select the monster level
 The sum of the monsters levels is designed to be equivilent to the sum of the monsters levels.
-Be wary however - if monsters outnumber the players my more than a factor of 2, this can lead to an extremely dangerous fight.
+Be wary however - if monsters outnumber the players my more than a factor of 1.5, this can lead to an extremely dangerous fight.
+
+### 2. Select stats
 

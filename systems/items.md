@@ -26,10 +26,9 @@ Armor can be worn by characters to improve their [defence](stats.md#defence). Th
 
 |Name           |Description                                                             |Weight |Price  |Defence|Notes|
 |---------------|------------------------------------------------------------------------|-------|-------|-------|-----|
-|Clothes        |A sturdy fur lined jacket or heavy canvas cloak and hood.               |3      |25     |1      |     |
-|Light armor    |Padded gambeson, brigandine, or boiled leather armor.                   |10     |100    |3      |Inteferes with arcane magic. |
-|Heavy armor    |Chainmail, segmented plates, and a gambeson undergarment.               |25     |250    |5      |Inteferes with arcane and divine magic. `2x` [disadvantage](rolls.md#disadvantage) on stealth.|
-|Plate armor    |Steel interlocking plate armor.                                         |25     |2000   |6      |Inteferes with arcane and divine magic. `2x` [disadvantage](rolls.md#disadvantage) on stealth. This must be fitted to the wearer.|
+|Light armor    |Padded gambeson, brigandine, or boiled leather armor.                   |10     |100    |2      |Inteferes with arcane magic. |
+|Heavy armor    |Chainmail, segmented plates, and a gambeson undergarment.               |25     |250    |4      |Inteferes with arcane and divine magic. `2x` [disadvantage](rolls.md#disadvantage) on stealth.|
+|Plate armor    |Steel interlocking plate armor.                                         |25     |2000   |5      |Inteferes with arcane and divine magic. `2x` [disadvantage](rolls.md#disadvantage) on stealth. This must be fitted to the wearer.|
 
 # Shield
 [This section is a stub. Submit a Pull Request to edit it.](https://github.com/Lambosaurus/hives-and-torches/edit/main/systems/items.md)
@@ -55,5 +54,6 @@ Many of these equipment are a collection of items with multiple uses. **Tracking
 |Crowbar        |A hooked iron bar for breaking things or opening stubborn containers.   |      |1      |5      |     |
 |Bag of caltrops|A bag of 4 pointed objects to be thrown on the ground as area denial.   |5     |1      |5      |     |
 |Bear trap      |A springloaded mechanical trap, which can be reused.                    |      |2      |50     |     |
+|Potion of Healing|A flask of ruby colored liquid, which heals the drinker.              |1     |0.5    |25     |Restores `2d6` fatigue and `1` wound.     |
 
 
