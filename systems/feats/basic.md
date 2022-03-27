@@ -16,15 +16,14 @@ This character may wear [heavy armor](../items.md#armor).
 ## Field surgeon
 This character is famailar with stitching and caring for wounds.
 
-As a [camp action](../camping.md#camp-action), you may tend to a single recent [wound](../stats.md#wounds). This wound must have occurred during the past day.
+This character gains:
+ - An [advantage](../rolls.md#advantage) on [medicine](../skills.md#medicine) tests.
+ - A new [camp action](../camping.md#camp-action) *tend wounds*, you may tend to a single recent [wound](../stats.md#wounds) using [bandages](../items.md#equipment). This wound must have occurred during the past day.
 On a successful moderate [medicine](../skills.md#medicine) test, this wound is removed.
-
-> Issue: Is a moderate test too harsh? It will seem worse compared to other camp actions.
 
 ---
 ## Medical studies
 This character has knowledge of medicines and making field dressings.
- - You gain an [advantage](../rolls.md#advantage) on [medicine](../skills.md#medicine) tests.
 
 ---
 ## Cook

@@ -60,7 +60,7 @@ Cuts on this character cause blood to run freely unless staunched.
 
 A bleeding character takes `1d4` damage before making any [primary action](actions.md#primary-action). This damage ignores [defence](stats.md#defence).
 
-A character may use their [primary action](actions.md#primary-action) to staunch the bleeding in combat.
+A character may use their [primary action](actions.md#primary-action) to staunch the bleeding in combat using [bandages](items.md#equipment).
 This action is [unsafe](actions.md#unsafe-action), and is successful on a simple [medicine](skills.md#medicine) [test](rolls.md#tests). Using the staunch action does not the bleeding damage.
 
 > Note: This should not be inflicted on players casually in combat - it is intended to be very dangerous.

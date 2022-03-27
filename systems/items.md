@@ -36,7 +36,7 @@ Armor can be worn by characters to improve their [defence](stats.md#defence). Th
 
 # Equipment
 
-These are equipment for 
+These are equipment for ...
 
 ## Uses
 Many of these equipment are a collection of items with multiple uses. **Tracking these uses is optional**. You may instead choose to consume the entire stack at the end of a day or adventure.
@@ -46,7 +46,8 @@ Many of these equipment are a collection of items with multiple uses. **Tracking
 |Bag of torches |A bag containing pitch torches for illumination.                        |8     |1      |1      |Each torch burns for 1 hour.|
 |Lantern        |An oil burning lantern for illumination.                                |5     |1      |15     |A full tank burns for 24 hours. Refill for 1 gold.|
 |Rations        |Pouches of bread and cured meats for sustanence in the field.           |5     |1      |1      |Each ration sustains a character for 1 day.|
-|Travel cloak   |A heavy hoooded canvas cloak to protect oneself from the elements.      |      |1      |10      |     |
+|Bandages       |A pouch of rolled bandages for protecting wounds.                       |5     |1      |2      |     |
+|Travel cloak   |A heavy hoooded canvas cloak to protect oneself from the elements.      |      |1      |10     |     |
 |Bedroll        |A rolled up mat and blanket to help one sleep in the wild.              |      |1      |3      |     |
 |Coil of rope   |A `50 ft` length of hardy rope.                                         |      |1      |2      |     |
 |Grappling hook |A metal hook and `20 ft` of rope to assist scaling buildings and cliffs.|      |1      |3      |     |
