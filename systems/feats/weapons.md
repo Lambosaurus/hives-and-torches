@@ -19,7 +19,7 @@ This character is proficient with piercing weapons. When using a [piercing](../w
 ## Bladesman
 This character is proficient with bladed weapons. When using a [slashing](../weapons.md#damage-type) weapon, the character gains the following:
  - `+1` to [attacks](../rolls.md#attacks) with slashing weapons.
- - A new [critical](../rolls.md#criticals) option, *open vein*: The foe is [bleeding](../statuses.md#bleeding) until the end of your next turn.
+ - A new [critical](../rolls.md#criticals) option, *open vein*: The foe is [bleeding](../statuses.md#bleeding).
 
 ---
 ## Barrager
