@@ -43,12 +43,15 @@ Many of these equipment are a collection of items with multiple uses. **Tracking
 
 |Name           |Description                                                             |Uses  |Weight |Price  |Notes|
 |---------------|------------------------------------------------------------------------|------|-------|-------|-----|
-|Bag of torches |A bag containing pitch torches for illumination.                        |5     |1      |1      |     |
-|Rations        |Pouches of bread and cured meats for sustanence in the field.           |5     |1      |1      |     |
-|Coil of rope   |A `50 ft` length of hardy rope.                                         |      |1      |1      |     |
-|Grappling hook |A metal hook and `20 ft` of rope to assist scaling buildings and cliffs.|      |1      |2      |     |
-|Shovel         |A iron headed shovel for digging holes and moving debris.               |      |1      |3      |     |
-|Crowbar        |A hooked iron bar for breaking things or opening stubborn containers.   |      |1      |3      |     |
+|Bag of torches |A bag containing pitch torches for illumination.                        |8     |1      |1      |Each torch burns for 1 hour.|
+|Lantern        |An oil burning lantern for illumination.                                |5     |1      |15     |A full tank burns for 24 hours. Refill for 1 gold.|
+|Rations        |Pouches of bread and cured meats for sustanence in the field.           |5     |1      |1      |Each ration sustains a character for 1 day.|
+|Travel cloak   |A heavy hoooded canvas cloak to protect oneself from the elements.      |      |1      |10      |     |
+|Bedroll        |A rolled up mat and blanket to help one sleep in the wild.              |      |1      |3      |     |
+|Coil of rope   |A `50 ft` length of hardy rope.                                         |      |1      |2      |     |
+|Grappling hook |A metal hook and `20 ft` of rope to assist scaling buildings and cliffs.|      |1      |3      |     |
+|Shovel         |A iron headed shovel for digging holes and moving debris.               |      |1      |5      |     |
+|Crowbar        |A hooked iron bar for breaking things or opening stubborn containers.   |      |1      |5      |     |
 |Bag of caltrops|A bag of 4 pointed objects to be thrown on the ground as area denial.   |5     |1      |5      |     |
 |Bear trap      |A springloaded mechanical trap, which can be reused.                    |      |2      |50     |     |
 
