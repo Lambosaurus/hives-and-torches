@@ -15,6 +15,7 @@ These represents options available to all characters.
 These are broken down further into:
  - [basic feats](feats/basic.md)
  - [weapon feats](feats/weapons.md)
+ - [combat feats](feats/combat.md)
 
 # Archetype feats
 Archetypes replace the classes found in most other systems. 
